@@ -19,3 +19,15 @@ footer,.navbar-default{
 .portfolio-item {
     margin-bottom: 25px;
 }
+.bx-pager,.bx-default-pager{
+    display: none;
+}
+#search-index-page{
+    max-width: 500px;
+}
+#image-user-bar{
+    width: 27px;
+    height: 27px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+}

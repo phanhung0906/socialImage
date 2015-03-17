@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" name="Default" comment="" />
+    <ignored path="socialImage.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/SiteController.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426587711477" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/frontend/controllers/UserController.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425974490415" ignored="false" />
+    <file path="/UserController.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425874741093" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/frontend/views/themes/default/templates/user/document.phtml" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425876919358" ignored="false" />
+    <file path="/document.phtml" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425876751599" ignored="false" />
+    <file path="/Common.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425893697881" ignored="false" />
+    <file path="/HelloWidget.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425897683970" ignored="false" />
+    <file path="/about.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425897979201" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/controllers/ContractController.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425974490415" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/forms/ContractForm.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425974490415" ignored="false" />
+    <file path="/ContractForm.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425956991150" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/forms/groups/BoxFooter.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425974490415" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/controllers/SettingController.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426048607653" ignored="false" />
+    <file path="/SettingController.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426048596643" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/controllers/BusinessmanController.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425974490415" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/models/Setting.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425962496959" ignored="false" />
+    <file path="/Setting.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426046762563" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/models/Setting.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426047628969" ignored="false" />
+    <file path="/a.dummy" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426492899513" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/views/themes/default/templates/setting/index.phtml" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426047569174" ignored="false" />
+    <file path="/index.phtml" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425974068032" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/forms/SettingForm.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426043334139" ignored="false" />
+    <file path="/SettingForm.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425981704037" ignored="false" />
+    <file path="/Dummy.txt" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426480322152" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/grids/AgencyGrid.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425974490415" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/models/User.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425974490415" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/models/CommissionQuantum.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425974490415" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/detailviews/AgencyDetailView.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425974490415" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/detailviews/ManagerBankDetailView.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425974490415" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/detailviews/BankDetailView.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425974490415" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/detailviews/BusinessmanDetailView.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425974490415" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/controllers/CommissionQuantumController.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425974490415" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/forms/AgencyForm.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426493398084" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/controllers/BaseController.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426039120854" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/forms/ManagerBankForm.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425974490415" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/controllers/AgencyController.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426214352950" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/forms/LSUserForm.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426488813903" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/forms/TestForm.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425974490415" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/forms/SupervisorForm.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425974490415" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/components/Commission.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426042441017" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/controllers/LifestyleController.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425974490415" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/agency/controllers/UserViewController.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425974490415" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/controllers/QuantumController.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426146523343" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/frontend/controllers/LifestyleController.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425974490415" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/controllers/SupervisorController.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425974490415" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/frontend/controllers/QuantumController.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425974490415" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/grids/elements/ActionLink.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425974490415" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/amici/grids/UserGrid.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426039120854" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/grids/CommissionQuantumContractTmpGrid.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425974490415" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/models/Businessman.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425974490415" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/grids/SupervisorGrid.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425974490415" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/models/Commission.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425974490415" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/models/Contract.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425974490415" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/detailviews/SupervisorDetailView.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425974490415" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/models/Agency.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425974490415" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/models/ManagerBank.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425974490415" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/models/Supervisor.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425974490415" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/grids/CommissionQuantumAgencyGrid.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425974490415" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/models/CommissionQuantumContractTmp.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425974490415" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/detailviews/QuantumDetailView.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425974490415" ignored="false" />
+    <file path="/Commission.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426042212594" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/forms/SettingCreateForm.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426045315873" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/config/development/navigation.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426046439396" ignored="false" />
+    <file path="/SettingCreateForm.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426045197589" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/views/themes/default/templates/setting/create.phtml" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426045057223" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/grids/SettingGrid.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426048503742" ignored="false" />
+    <file path="/SettingGrid.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426047755316" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/views/themes/default/templates/setting/update.phtml" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426046955338" ignored="false" />
+    <file path="/AgencyController.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426048420768" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/helpers/Translate.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426146577176" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/languages/ja.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426558310218" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/views/themes/default/templates/user/_confirm.phtml" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426147457451" ignored="false" />
+    <file path="/_confirm.phtml" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426143689575" ignored="false" />
+    <file path="/Translate.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426134822572" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/languages/en.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426480802841" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/views/themes/default/templates/quantum/confirm.phtml" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426146598050" ignored="false" />
+    <file path="/confirm.phtml" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426146343459" ignored="false" />
+    <file path="/QuantumController.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426143599612" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/views/themes/default/templates/quantum/create.phtml" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426146993751" ignored="false" />
+    <file path="/create.phtml" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426146352360" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/Bootstrap.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426146523343" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/library/OE/Application/Controller.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426146523343" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/library/OE/Application/Module.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426146523343" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/forms/UserForm.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426146671902" ignored="false" />
+    <file path="$PROJECT_DIR$/../demo/demo php/importDb/index.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426155191755" ignored="false" />
+    <file path="/index.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426586470342" ignored="false" />
+    <file path="$PROJECT_DIR$/../demo/demo php/importDb/test1.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426156284076" ignored="false" />
+    <file path="/test1.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426156232899" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/controllers/ImportController.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426588623809" ignored="false" />
+    <file path="/ImportController.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426583869642" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/views/themes/default/templates/import/index.phtml" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426215414854" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/views/themes/default/templates/import/import.phtml" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426583733714" ignored="false" />
+    <file path="/import.phtml" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426583716254" ignored="false" />
+    <file path="/dummy.xml" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426234065742" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/proj_KabuEC/trunk/protected/config/global.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426480069361" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/frontend/forms/LifestyleForm.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426493666631" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/frontend/forms/QuantumForm.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426494442121" ignored="false" />
+    <file path="/QuantumForm.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426490546171" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/frontend/Module.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426491252827" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/agency/forms/LoginForm.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426492994342" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/agency/Module.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426493015290" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/amici/forms/LoginForm.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426493078955" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/amici/Module.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426493130572" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/frontend/forms/LoginForm.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426493858055" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/frontend/forms/SignupForm.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426494875076" ignored="false" />
+    <file path="$PROJECT_DIR$/../demo/demoTemplate/youtube/index.html" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426500789270" ignored="false" />
+    <file path="/index.html" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426500612792" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/proj_KabuEC/trunk/protected/views/layouts/frontend.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426557458136" ignored="false" />
+    <file path="/StatisticController.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426563967887" ignored="false" />
+    <file path="/main.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426590198971" ignored="false" />
+    <file path="/style-main.css" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426590232546" ignored="false" />
+    <file path="/error.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426587533657" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="socialImage" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="main.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/config/main.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="78" column="21" selection-start="2443" selection-end="2455" vertical-scroll-proportion="-3.1038961">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="error.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/views/site/error.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="2" selection-start="149" selection-end="149" vertical-scroll-proportion="-4.576923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/views/layouts/main.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="69" column="110" selection-start="3696" selection-end="3710" vertical-scroll-proportion="-12.615385">
+              <folding>
+                <marker date="1426590208091" expanded="true" signature="4494:4567" placeholder="..." />
+                <marker date="1426590208091" expanded="true" signature="4654:4856" placeholder="..." />
+                <marker date="1426590208091" expanded="true" signature="5023:5223" placeholder="..." />
+                <marker date="1426590208091" expanded="true" signature="5380:5396" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="animate.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libs/css/animate.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="1" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="23" selection-start="305" selection-end="305" vertical-scroll-proportion="-8.5">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style-main.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/libs/css/style-main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="1" selection-start="549" selection-end="549" vertical-scroll-proportion="0.5862069">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SiteController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="55" column="9" selection-start="1233" selection-end="1233" vertical-scroll-proportion="-35.96154">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/views/site/about.php" />
+        <option value="$PROJECT_DIR$/config/web.php" />
+        <option value="$PROJECT_DIR$/controllers/SiteController.php" />
+        <option value="$PROJECT_DIR$/views/layouts/main.php" />
+        <option value="$PROJECT_DIR$/protected/modules/admin/views/statistic/index.php" />
+        <option value="$PROJECT_DIR$/protected/modules/admin/controllers/StatisticController.php" />
+        <option value="$PROJECT_DIR$/protected/modules/admin/components/AdminController.php" />
+        <option value="$PROJECT_DIR$/protected/config/params.php" />
+        <option value="$PROJECT_DIR$/protected/config/main.php" />
+        <option value="$PROJECT_DIR$/libs/css/font-awesome-animation.min.css" />
+        <option value="$PROJECT_DIR$/libs/js/wow.js" />
+        <option value="$PROJECT_DIR$/protected/views/site/index.php" />
+        <option value="$PROJECT_DIR$/protected/views/site/error.php" />
+        <option value="$PROJECT_DIR$/protected/controllers/SiteController.php" />
+        <option value="$PROJECT_DIR$/protected/views/layouts/main.php" />
+        <option value="$PROJECT_DIR$/libs/css/style-main.css" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1932" />
+    <option name="height" value="1086" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents ProjectPane="true" />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="socialImage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="socialImage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="socialImage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="socialImage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="socialImage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="socialImage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="socialImage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="socialImage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="socialImage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="socialImage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="socialImage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="socialImage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="socialImage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="socialImage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="socialImage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="socialImage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="socialImage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\socialImage\libs\css" />
+      <recent name="D:\projects\socialImage\libs" />
+      <recent name="D:\projects\socialImage\libs\js" />
+      <recent name="D:\projects\socialImage" />
+      <recent name="D:\projects\socialImage\protected\config" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projects\socialImage\web\libs" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" name="Default" comment="" />
+      <created>1425869344463</created>
+      <updated>1425869344463</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1932" height="1086" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2529412" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/protected/config/global.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/config/params.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="2" selection-start="367" selection-end="367" vertical-scroll-proportion="-7.1923075">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/AdminModule.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="5" selection-start="154" selection-end="154" vertical-scroll-proportion="-5.230769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/js/jquery.bxslider.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/css/jquery.bxslider.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/css/font-awesome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/js/wow.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="7125" selection-start="7155" selection-end="7155" vertical-scroll-proportion="0.018579235">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="33" selection-start="335" selection-end="335" vertical-scroll-proportion="0.2827051">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="9" selection-start="1233" selection-end="1233" vertical-scroll-proportion="-35.96154">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/config/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="21" selection-start="2443" selection-end="2455" vertical-scroll-proportion="-3.1038961">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/css/animate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="1" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/site/error.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="2" selection-start="149" selection-end="149" vertical-scroll-proportion="-4.576923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/layouts/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="110" selection-start="3696" selection-end="3710" vertical-scroll-proportion="-12.615385">
+          <folding>
+            <marker date="1426590208091" expanded="true" signature="4494:4567" placeholder="..." />
+            <marker date="1426590208091" expanded="true" signature="4654:4856" placeholder="..." />
+            <marker date="1426590208091" expanded="true" signature="5023:5223" placeholder="..." />
+            <marker date="1426590208091" expanded="true" signature="5380:5396" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="23" selection-start="305" selection-end="305" vertical-scroll-proportion="-8.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/css/style-main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="1" selection-start="549" selection-end="549" vertical-scroll-proportion="0.5862069">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

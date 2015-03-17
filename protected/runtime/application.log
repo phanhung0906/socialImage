@@ -451,3 +451,312 @@ Stack trace:
 REQUEST_URI=/images/pic4.jpg
 HTTP_REFERER=http://socialimage.local/
 ---
+2015/03/17 08:57:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "libs/css/images/bx_loader.gif".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('libs/css/images...')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/css/images/bx_loader.gif
+HTTP_REFERER=http://socialimage.local/libs/css/jquery.bxslider.css
+---
+2015/03/17 08:57:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "libs/css/images/controls.png".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('libs/css/images...')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/css/images/controls.png
+HTTP_REFERER=http://socialimage.local/libs/css/jquery.bxslider.css
+---
+2015/03/17 09:39:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "libs/fonts/fontawesome-webfont.woff".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('libs/fonts/font...')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/fonts/fontawesome-webfont.woff?v=4.2.0
+HTTP_REFERER=http://socialimage.local/libs/css/font-awesome.min.css
+---
+2015/03/17 09:39:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "libs/fonts/fontawesome-webfont.ttf".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('libs/fonts/font...')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/fonts/fontawesome-webfont.ttf?v=4.2.0
+HTTP_REFERER=http://socialimage.local/libs/css/font-awesome.min.css
+---
+2015/03/17 09:40:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "libs/fonts/fontawesome-webfont.woff".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('libs/fonts/font...')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/fonts/fontawesome-webfont.woff?v=4.2.0
+HTTP_REFERER=http://socialimage.local/libs/css/font-awesome.min.css
+---
+2015/03/17 09:40:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "libs/fonts/fontawesome-webfont.ttf".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('libs/fonts/font...')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/fonts/fontawesome-webfont.ttf?v=4.2.0
+HTTP_REFERER=http://socialimage.local/libs/css/font-awesome.min.css
+---
+2015/03/17 09:42:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "libs/fonts/fontawesome-webfont.woff".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('libs/fonts/font...')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/fonts/fontawesome-webfont.woff?v=4.2.0
+HTTP_REFERER=http://socialimage.local/libs/css/font-awesome.min.css
+---
+2015/03/17 09:42:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "libs/fonts/fontawesome-webfont.ttf".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('libs/fonts/font...')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/fonts/fontawesome-webfont.ttf?v=4.2.0
+HTTP_REFERER=http://socialimage.local/libs/css/font-awesome.min.css
+---
+2015/03/17 09:46:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "libs/fonts/fontawesome-webfont.woff".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('libs/fonts/font...')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/fonts/fontawesome-webfont.woff?v=4.2.0
+HTTP_REFERER=http://socialimage.local/libs/css/font-awesome.min.css
+---
+2015/03/17 09:46:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "libs/fonts/fontawesome-webfont.ttf".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('libs/fonts/font...')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/fonts/fontawesome-webfont.ttf?v=4.2.0
+HTTP_REFERER=http://socialimage.local/libs/css/font-awesome.min.css
+---
+2015/03/17 09:48:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "libs/fonts/fontawesome-webfont.woff".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('libs/fonts/font...')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/fonts/fontawesome-webfont.woff?v=4.2.0
+HTTP_REFERER=http://socialimage.local/libs/css/font-awesome.min.css
+---
+2015/03/17 09:48:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "libs/fonts/fontawesome-webfont.ttf".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('libs/fonts/font...')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/fonts/fontawesome-webfont.ttf?v=4.2.0
+HTTP_REFERER=http://socialimage.local/libs/css/font-awesome.min.css
+---
+2015/03/17 09:48:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "libs/fonts/fontawesome-webfont.woff".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('libs/fonts/font...')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/fonts/fontawesome-webfont.woff?v=4.2.0
+HTTP_REFERER=http://socialimage.local/libs/css/font-awesome.min.css
+---
+2015/03/17 09:48:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "libs/fonts/fontawesome-webfont.ttf".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('libs/fonts/font...')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/fonts/fontawesome-webfont.ttf?v=4.2.0
+HTTP_REFERER=http://socialimage.local/libs/css/font-awesome.min.css
+---
+2015/03/17 09:50:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "about".' in D:\projects\socialImage\yii-core\web\CController.php:483
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CController.php(270): CController->missingAction('about')
+#1 D:\projects\socialImage\yii-core\web\CWebApplication.php(282): CController->run('about')
+#2 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('site/about')
+#3 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\projects\socialImage\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/about
+HTTP_REFERER=http://socialimage.local/
+---
+2015/03/17 09:50:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/03/17 09:50:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "libs/fonts/fontawesome-webfont.woff".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('libs/fonts/font...')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/fonts/fontawesome-webfont.woff?v=4.2.0
+HTTP_REFERER=http://socialimage.local/libs/css/font-awesome.min.css
+---
+2015/03/17 09:50:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "libs/fonts/fontawesome-webfont.ttf".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('libs/fonts/font...')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/fonts/fontawesome-webfont.ttf?v=4.2.0
+HTTP_REFERER=http://socialimage.local/libs/css/font-awesome.min.css
+---
+2015/03/17 09:50:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/03/17 09:51:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "libs/fonts/fontawesome-webfont.woff".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('libs/fonts/font...')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/fonts/fontawesome-webfont.woff?v=4.2.0
+HTTP_REFERER=http://socialimage.local/libs/css/font-awesome.min.css
+---
+2015/03/17 09:51:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "libs/fonts/fontawesome-webfont.ttf".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('libs/fonts/font...')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/fonts/fontawesome-webfont.ttf?v=4.2.0
+HTTP_REFERER=http://socialimage.local/libs/css/font-awesome.min.css
+---
+2015/03/17 09:52:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "libs/fonts/fontawesome-webfont.woff".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('libs/fonts/font...')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/fonts/fontawesome-webfont.woff?v=4.2.0
+HTTP_REFERER=http://socialimage.local/libs/css/font-awesome.css
+---
+2015/03/17 09:52:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "libs/fonts/fontawesome-webfont.ttf".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('libs/fonts/font...')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/fonts/fontawesome-webfont.ttf?v=4.2.0
+HTTP_REFERER=http://socialimage.local/libs/css/font-awesome.css
+---
+2015/03/17 09:52:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "libs/fonts/fontawesome-webfont.woff".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('libs/fonts/font...')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/fonts/fontawesome-webfont.woff?v=4.2.0
+HTTP_REFERER=http://socialimage.local/libs/css/font-awesome.min.css
+---
+2015/03/17 09:52:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "libs/fonts/fontawesome-webfont.ttf".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('libs/fonts/font...')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/fonts/fontawesome-webfont.ttf?v=4.2.0
+HTTP_REFERER=http://socialimage.local/libs/css/font-awesome.min.css
+---
+2015/03/17 09:53:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "libs/fonts/fontawesome-webfont.woff".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('libs/fonts/font...')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/fonts/fontawesome-webfont.woff?v=4.2.0
+HTTP_REFERER=http://socialimage.local/libs/css/font-awesome.min.css
+---
+2015/03/17 09:53:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "libs/fonts/fontawesome-webfont.ttf".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('libs/fonts/font...')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/fonts/fontawesome-webfont.ttf?v=4.2.0
+HTTP_REFERER=http://socialimage.local/libs/css/font-awesome.min.css
+---
+2015/03/17 09:54:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "libs/fonts/fontawesome-webfont.woff".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('libs/fonts/font...')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/fonts/fontawesome-webfont.woff?v=4.2.0
+HTTP_REFERER=http://socialimage.local/libs/css/font-awesome.min.css
+---
+2015/03/17 09:54:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "libs/fonts/fontawesome-webfont.ttf".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('libs/fonts/font...')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/fonts/fontawesome-webfont.ttf?v=4.2.0
+HTTP_REFERER=http://socialimage.local/libs/css/font-awesome.min.css
+---
+2015/03/17 11:16:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('1')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/1
+---
+2015/03/17 11:16:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/03/17 11:16:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/03/17 11:21:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('1')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/1
+---
+2015/03/17 11:21:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('1')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/1
+---
+2015/03/17 11:23:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('1')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/1
+---

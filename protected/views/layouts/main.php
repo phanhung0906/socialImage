@@ -7,38 +7,42 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta name="language" content="en">
 
-    <!-- bootstrap 3.0.2 -->
+    <!-- bootstrap 3.0.3 -->
     <link href="<?php echo $baseUrl ?>/libs/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <!-- font Awesome -->
     <link href="<?php echo $baseUrl ?>/libs/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-    <!-- style -->
-    <link href="<?php echo $baseUrl ?>/libs/css/style-main.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo $baseUrl ?>/libs/css/font-awesome-animation.min.css" rel="stylesheet" type="text/css" />
     <!-- bxslider -->
     <link href="<?php echo $baseUrl ?>/libs/css/jquery.bxslider.css" rel="stylesheet" type="text/css" />
+    <!-- wow css -->
+    <link rel="stylesheet" href="<?php echo $baseUrl ?>/libs/css/animate.css">
+    <!-- style -->
+    <link href="<?php echo $baseUrl ?>/libs/css/style-main.css" rel="stylesheet" type="text/css" />
+    <!-- jQuery -->
+    <script src="<?php echo $baseUrl ?>/libs/js/libs/jquery-2.0.2.min.js"></script>
+    <script src="<?php echo $baseUrl ?>/libs/js/wow.min.js"></script>
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
 
 <body>
 <header class="navbar navbar-default">
     <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/">Brand</a>
+            <a class="navbar-brand wow swing" href="/"><?php echo Yii::t('app','SocialImage') ?></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="/site/login">Link <span class="sr-only">(current)</span></a></li>
-                <li><a href="/site/contact">Link</a></li>
+                <li class="active"><a href="/site/login"><?php echo Yii::t('app','Home') ?></a></li>
+                <li><a href="/site/contact"><?php echo Yii::t('app','Contact') ?></a></li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><?php echo Yii::t('app','Action') ?> <span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
                         <li><a href="/site/page">Action</a></li>
                         <li><a href="#">Another action</a></li>
@@ -50,22 +54,27 @@
                     </ul>
                 </li>
             </ul>
-            <form class="navbar-form navbar-left" role="search">
+            <form class="navbar-form navbar-left" id="search-index-page">
                 <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search for...">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+                        </span>
+                    </div>
                 </div>
-                <button type="submit" class="btn btn-default">Submit</button>
             </form>
+            <button type="button" class="btn btn-default navbar-btn"><?php echo Yii::t('app','Upload') ?></button>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="/site/about">Link</a></li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><img id='image-user-bar' src="http://placehold.it/750x450" alt="Account"/></a>
                     <ul class="dropdown-menu" role="menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
+                        <li class="disabled"><a href="#"><?php echo Yii::t('app','Language') ?></a></li>
                         <li class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
+                        <li><a href="#"><?php echo Yii::t('app','English') ?></a></li>
+                        <li><a href="#"><?php echo Yii::t('app','Vietnamese') ?></a></li>
+                        <li class="divider"></li>
+                        <li><a href="#"><i class="fa fa-power-off"></i> <?php echo Yii::t('app','Logout') ?></a></li>
                     </ul>
                 </li>
             </ul>
@@ -103,11 +112,12 @@
     </div>
 </footer>
 
-<!-- jQuery -->
-<script src="<?php echo $baseUrl ?>/libs/js/libs/jquery-2.0.2.min.js"></script>
 <!-- Bootstrap 3.0.3 -->
 <script src="<?php echo $baseUrl ?>/libs/js/bootstrap/bootstrap.min.js" type="text/javascript"></script>
 <!-- bxslider -->
 <script src="<?php echo $baseUrl ?>/libs/js/jquery.bxslider.min.js" type="text/javascript"></script>
+<script>
+    new WOW().init();
+</script>
 </body>
 </html>
