@@ -9,6 +9,7 @@
 
     <!-- bootstrap 3.0.3 -->
     <link href="<?php echo $baseUrl ?>/libs/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo $baseUrl ?>/libs/css/bootstrap-switch.min.css" rel="stylesheet" type="text/css" />
     <!-- font Awesome -->
     <link href="<?php echo $baseUrl ?>/libs/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
     <link href="<?php echo $baseUrl ?>/libs/css/font-awesome-animation.min.css" rel="stylesheet" type="text/css" />
@@ -20,7 +21,6 @@
     <link href="<?php echo $baseUrl ?>/libs/css/style-main.css" rel="stylesheet" type="text/css" />
     <!-- jQuery -->
     <script src="<?php echo $baseUrl ?>/libs/js/libs/jquery-2.0.2.min.js"></script>
-    <script src="<?php echo $baseUrl ?>/libs/js/wow.min.js"></script>
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
 
@@ -66,11 +66,13 @@
             </form>
             <button type="button" class="btn btn-default navbar-btn"><?php echo Yii::t('app','Upload') ?></button>
             <ul class="nav navbar-nav navbar-right">
+                <li><a href="<?php echo $baseUrl ?>/user"><?php echo Yii::t('app','My page') ?></a></li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><img id='image-user-bar' src="http://placehold.it/750x450" alt="Account"/></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" id='image-user-bar-a-tag'><img id='image-user-bar' src="<?php echo $baseUrl ?>/images/750x450.png" alt="Account"/></a>
                     <ul class="dropdown-menu" role="menu">
-                        <li class="disabled"><a href="#"><?php echo Yii::t('app','Language') ?></a></li>
+                        <li><a href="<?php echo $baseUrl ?>/settings"><?php echo Yii::t('app','Settings') ?></a></li>
                         <li class="divider"></li>
+                        <li class="disabled"><a href="#"><?php echo Yii::t('app','Language') ?></a></li>
                         <li><a href="#"><?php echo Yii::t('app','English') ?></a></li>
                         <li><a href="#"><?php echo Yii::t('app','Vietnamese') ?></a></li>
                         <li class="divider"></li>
@@ -113,9 +115,13 @@
 </footer>
 
 <!-- Bootstrap 3.0.3 -->
-<script src="<?php echo $baseUrl ?>/libs/js/bootstrap/bootstrap.min.js" type="text/javascript"></script>
+<script src="<?php echo $baseUrl ?>/libs/js/bootstrap/bootstrap.min.js"></script>
+<!-- bootstrap switch -->
+<script src="<?php echo $baseUrl ?>/libs/js/bootstrap/bootstrap-switch.min.js"></script>
+<!-- Wow js -->
+<script src="<?php echo $baseUrl ?>/libs/js/wow.min.js"></script>
 <!-- bxslider -->
-<script src="<?php echo $baseUrl ?>/libs/js/jquery.bxslider.min.js" type="text/javascript"></script>
+<script src="<?php echo $baseUrl ?>/libs/js/jquery.bxslider.min.js"></script>
 <script>
     new WOW().init();
 </script>

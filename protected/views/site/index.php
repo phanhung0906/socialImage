@@ -1,6 +1,6 @@
 <?php
 /* @var $this SiteController */
-
+$baseUrl = Yii::app()->baseUrl;
 $this->pageTitle=Yii::app()->name;
 ?>
 <div class="container" id='index-page'>
@@ -13,8 +13,8 @@ $this->pageTitle=Yii::app()->name;
 
         <div class="row">
             <div class="col-md-3 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+                <a href="<?php echo $baseUrl ?>/detail">
+                    <img class="img-responsive" src="<?php echo $baseUrl ?>/images/750x450.png" alt="">
                 </a>
                 <div>
                     <h5><a href="#">kungfu hiphop</a></h5>
@@ -23,7 +23,7 @@ $this->pageTitle=Yii::app()->name;
             </div>
             <div class="col-md-3 portfolio-item">
                 <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+                    <img class="img-responsive" src="<?php echo $baseUrl ?>/images/750x450.png" alt="">
                 </a>
                 <div>
                     <h5><a href="#">kungfu hiphop</a></h5>
@@ -32,7 +32,7 @@ $this->pageTitle=Yii::app()->name;
             </div>
             <div class="col-md-3 portfolio-item">
                 <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+                    <img class="img-responsive" src="<?php echo $baseUrl ?>/images/750x450.png" alt="">
                 </a>
                 <div>
                     <h5><a href="#">kungfu hiphop</a></h5>
@@ -41,7 +41,7 @@ $this->pageTitle=Yii::app()->name;
             </div>
             <div class="col-md-3 portfolio-item">
                 <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+                    <img class="img-responsive" src="<?php echo $baseUrl ?>/images/750x450.png" alt="">
                 </a>
                 <div>
                     <h5><a href="#">kungfu hiphop</a></h5>
@@ -53,7 +53,7 @@ $this->pageTitle=Yii::app()->name;
         <div class="row">
             <div class="col-md-3 portfolio-item">
                 <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+                    <img class="img-responsive" src="<?php echo $baseUrl ?>/images/750x450.png" alt="">
                 </a>
                 <div>
                     <h5><a href="#">kungfu hiphop</a></h5>
@@ -62,7 +62,7 @@ $this->pageTitle=Yii::app()->name;
             </div>
             <div class="col-md-3 portfolio-item">
                 <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+                    <img class="img-responsive" src="<?php echo $baseUrl ?>/images/750x450.png" alt="">
                 </a>
                 <div>
                     <h5><a href="#">kungfu hiphop</a></h5>
@@ -71,7 +71,7 @@ $this->pageTitle=Yii::app()->name;
             </div>
             <div class="col-md-3 portfolio-item">
                 <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+                    <img class="img-responsive" src="<?php echo $baseUrl ?>/images/750x450.png" alt="">
                 </a>
                 <div>
                     <h5><a href="#">kungfu hiphop</a></h5>
@@ -80,7 +80,7 @@ $this->pageTitle=Yii::app()->name;
             </div>
             <div class="col-md-3 portfolio-item">
                 <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+                    <img class="img-responsive" src="<?php echo $baseUrl ?>/images/750x450.png" alt="">
                 </a>
                 <div>
                     <h5><a href="#">kungfu hiphop</a></h5>
@@ -98,15 +98,15 @@ $this->pageTitle=Yii::app()->name;
         </div>
 
         <ul class="bxslider row">
-            <li class="col-md-3 portfolio-item"><a href="#"><img class="img-responsive" src="http://placehold.it/750x450" /></a></li>
-            <li class="col-md-3 portfolio-item"><a href="#"><img class="img-responsive" src="http://placehold.it/750x450" /></a></li>
-            <li class="col-md-3 portfolio-item"><a href="#"><img class="img-responsive" src="http://placehold.it/750x450" /></a></li>
-            <li class="col-md-3 portfolio-item"><a href="#"><img class="img-responsive" src="http://placehold.it/750x450" /></a></li>
+            <li class="col-md-3 portfolio-item"><a href="#"><img class="img-responsive" src="<?php echo $baseUrl ?>/images/750x450.png" /></a></li>
+            <li class="col-md-3 portfolio-item"><a href="#"><img class="img-responsive" src="<?php echo $baseUrl ?>/images/750x450.png" /></a></li>
+            <li class="col-md-3 portfolio-item"><a href="#"><img class="img-responsive" src="<?php echo $baseUrl ?>/images/750x450.png" /></a></li>
+            <li class="col-md-3 portfolio-item"><a href="#"><img class="img-responsive" src="<?php echo $baseUrl ?>/images/750x450.png" /></a></li>
 
-            <li class="col-md-3 portfolio-item"><a href="#"><img class="img-responsive" src="http://placehold.it/750x450" /></a></li>
-            <li class="col-md-3 portfolio-item"><a href="#"><img class="img-responsive" src="http://placehold.it/750x450" /></a></li>
-            <li class="col-md-3 portfolio-item"><a href="#"><img class="img-responsive" src="http://placehold.it/750x450" /></a></li>
-            <li class="col-md-3 portfolio-item"><a href="#"><img class="img-responsive" src="http://placehold.it/750x450" /></a></li>
+            <li class="col-md-3 portfolio-item"><a href="#"><img class="img-responsive" src="<?php echo $baseUrl ?>/images/750x450.png" /></a></li>
+            <li class="col-md-3 portfolio-item"><a href="#"><img class="img-responsive" src="<?php echo $baseUrl ?>/images/750x450.png" /></a></li>
+            <li class="col-md-3 portfolio-item"><a href="#"><img class="img-responsive" src="<?php echo $baseUrl ?>/images/750x450.png" /></a></li>
+            <li class="col-md-3 portfolio-item"><a href="#"><img class="img-responsive" src="<?php echo $baseUrl ?>/images/750x450.png" /></a></li>
         </ul>
     </div>
 
@@ -118,15 +118,15 @@ $this->pageTitle=Yii::app()->name;
         </div>
 
         <ul class="bxslider row">
-            <li class="col-md-3 portfolio-item"><a href="#"><img class="img-responsive" src="http://placehold.it/750x450" /></a></li>
-            <li class="col-md-3 portfolio-item"><a href="#"><img class="img-responsive" src="http://placehold.it/750x450" /></a></li>
-            <li class="col-md-3 portfolio-item"><a href="#"><img class="img-responsive" src="http://placehold.it/750x450" /></a></li>
-            <li class="col-md-3 portfolio-item"><a href="#"><img class="img-responsive" src="http://placehold.it/750x450" /></a></li>
+            <li class="col-md-3 portfolio-item"><a href="#"><img class="img-responsive" src="<?php echo $baseUrl ?>/images/750x450.png" /></a></li>
+            <li class="col-md-3 portfolio-item"><a href="#"><img class="img-responsive" src="<?php echo $baseUrl ?>/images/750x450.png" /></a></li>
+            <li class="col-md-3 portfolio-item"><a href="#"><img class="img-responsive" src="<?php echo $baseUrl ?>/images/750x450.png" /></a></li>
+            <li class="col-md-3 portfolio-item"><a href="#"><img class="img-responsive" src="<?php echo $baseUrl ?>/images/750x450.png" /></a></li>
 
-            <li class="col-md-3 portfolio-item"><a href="#"><img class="img-responsive" src="http://placehold.it/750x450" /></a></li>
-            <li class="col-md-3 portfolio-item"><a href="#"><img class="img-responsive" src="http://placehold.it/750x450" /></a></li>
-            <li class="col-md-3 portfolio-item"><a href="#"><img class="img-responsive" src="http://placehold.it/750x450" /></a></li>
-            <li class="col-md-3 portfolio-item"><a href="#"><img class="img-responsive" src="http://placehold.it/750x450" /></a></li>
+            <li class="col-md-3 portfolio-item"><a href="#"><img class="img-responsive" src="<?php echo $baseUrl ?>/images/750x450.png" /></a></li>
+            <li class="col-md-3 portfolio-item"><a href="#"><img class="img-responsive" src="<?php echo $baseUrl ?>/images/750x450.png" /></a></li>
+            <li class="col-md-3 portfolio-item"><a href="#"><img class="img-responsive" src="<?php echo $baseUrl ?>/images/750x450.png" /></a></li>
+            <li class="col-md-3 portfolio-item"><a href="#"><img class="img-responsive" src="<?php echo $baseUrl ?>/images/750x450.png" /></a></li>
         </ul>
     </div>
     <div class="page-header">
@@ -137,15 +137,15 @@ $this->pageTitle=Yii::app()->name;
         </div>
 
         <ul class="bxslider row">
-            <li class="col-md-3 portfolio-item"><a href="#"><img class="img-responsive" src="http://placehold.it/750x450" /></a></li>
-            <li class="col-md-3 portfolio-item"><a href="#"><img class="img-responsive" src="http://placehold.it/750x450" /></a></li>
-            <li class="col-md-3 portfolio-item"><a href="#"><img class="img-responsive" src="http://placehold.it/750x450" /></a></li>
-            <li class="col-md-3 portfolio-item"><a href="#"><img class="img-responsive" src="http://placehold.it/750x450" /></a></li>
+            <li class="col-md-3 portfolio-item"><a href="#"><img class="img-responsive" src="<?php echo $baseUrl ?>/images/750x450.png" /></a></li>
+            <li class="col-md-3 portfolio-item"><a href="#"><img class="img-responsive" src="<?php echo $baseUrl ?>/images/750x450.png" /></a></li>
+            <li class="col-md-3 portfolio-item"><a href="#"><img class="img-responsive" src="<?php echo $baseUrl ?>/images/750x450.png" /></a></li>
+            <li class="col-md-3 portfolio-item"><a href="#"><img class="img-responsive" src="<?php echo $baseUrl ?>/images/750x450.png" /></a></li>
 
-            <li class="col-md-3 portfolio-item"><a href="#"><img class="img-responsive" src="http://placehold.it/750x450" /></a></li>
-            <li class="col-md-3 portfolio-item"><a href="#"><img class="img-responsive" src="http://placehold.it/750x450" /></a></li>
-            <li class="col-md-3 portfolio-item"><a href="#"><img class="img-responsive" src="http://placehold.it/750x450" /></a></li>
-            <li class="col-md-3 portfolio-item"><a href="#"><img class="img-responsive" src="http://placehold.it/750x450" /></a></li>
+            <li class="col-md-3 portfolio-item"><a href="#"><img class="img-responsive" src="<?php echo $baseUrl ?>/images/750x450.png" /></a></li>
+            <li class="col-md-3 portfolio-item"><a href="#"><img class="img-responsive" src="<?php echo $baseUrl ?>/images/750x450.png" /></a></li>
+            <li class="col-md-3 portfolio-item"><a href="#"><img class="img-responsive" src="<?php echo $baseUrl ?>/images/750x450.png" /></a></li>
+            <li class="col-md-3 portfolio-item"><a href="#"><img class="img-responsive" src="<?php echo $baseUrl ?>/images/750x450.png" /></a></li>
         </ul>
     </div>
 </div>
