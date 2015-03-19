@@ -71,3 +71,6 @@ a:hover{
 .padding-content{
     padding: 2%;
 }
+.errorMessage{
+    color: #a94442;
+}

@@ -1056,3 +1056,54 @@ REQUEST_URI=/user
 in D:\projects\socialImage\protected\views\user\index.php (3)
 in D:\projects\socialImage\protected\controllers\UserController.php (7)
 in D:\projects\socialImage\index.php (13)
+2015/03/19 05:00:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "register".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('register')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/register
+---
+2015/03/19 05:00:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/03/19 05:00:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/03/19 05:41:17 [error] [php] include(validatePassword.php): failed to open stream: No such file or directory (D:\projects\socialImage\yii-core\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 D:\projects\socialImage\yii-core\YiiBase.php(303): class_exists()
+#2 D:\projects\socialImage\yii-core\validators\CValidator.php(174): import()
+#3 D:\projects\socialImage\yii-core\base\CModel.php(287): createValidator()
+#4 D:\projects\socialImage\yii-core\base\CModel.php(260): User->createValidators()
+#5 D:\projects\socialImage\yii-core\web\helpers\CHtml.php(2435): User->getValidators()
+#6 D:\projects\socialImage\yii-core\web\helpers\CHtml.php(1533): activeInputField()
+#7 D:\projects\socialImage\protected\views\site\register.php(26): activeTextField()
+#8 D:\projects\socialImage\yii-core\web\CBaseController.php(126): require()
+#9 D:\projects\socialImage\yii-core\web\CBaseController.php(95): SiteController->renderInternal()
+#10 D:\projects\socialImage\yii-core\web\CController.php(869): SiteController->renderFile()
+#11 D:\projects\socialImage\yii-core\web\CController.php(782): SiteController->renderPartial()
+#12 D:\projects\socialImage\protected\controllers\SiteController.php(96): SiteController->render()
+#13 D:\projects\socialImage\yii-core\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#14 D:\projects\socialImage\yii-core\web\CController.php(308): CInlineAction->runWithParams()
+#15 D:\projects\socialImage\yii-core\web\CController.php(286): SiteController->runAction()
+#16 D:\projects\socialImage\yii-core\web\CController.php(265): SiteController->runActionWithFilters()
+#17 D:\projects\socialImage\yii-core\web\CWebApplication.php(282): SiteController->run()
+#18 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController()
+#19 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#20 D:\projects\socialImage\index.php(13): CWebApplication->run()
+REQUEST_URI=/site/register
+in D:\projects\socialImage\protected\views\site\register.php (26)
+in D:\projects\socialImage\protected\controllers\SiteController.php (96)
+in D:\projects\socialImage\index.php (13)

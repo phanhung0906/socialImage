@@ -1,6 +1,6 @@
 <?php
 /** MySQL database */
-define('DB_NAME', 'acv_kabu');
+define('DB_NAME', 'social_image');
 
 /** MySQL database username */
 define('DB_USER', 'root');

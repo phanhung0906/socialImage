@@ -72,12 +72,50 @@ class SiteController extends Controller
 		$this->render('contact',array('model'=>$model));
 	}
 
-	/**
+    /**
+     * Register
+     */
+    public function actionRegister()
+    {
+        // Check user logined
+        if (!Yii::app()->user->isGuest) {
+            $this->redirect(Yii::app()->getBaseUrl(true));
+        }
+
+        // Setting page title
+        $this->pageTitle = Yii::t('app', 'Register');
+
+        $model = new User('register');
+
+        if (isset($_POST['User'])) {
+
+        }
+
+        $this->render('register', array(
+            'model' => $model
+        ));
+    }
+
+    /**
 	 * Displays the login page
 	 */
 	public function actionLogin()
 	{
-		$model=new LoginForm;
+        if (!Yii::app()->user->isGuest) $this->redirect(Yii::app()->user->returnUrl);
+
+        // login
+        $modelLogin = new LoginForm;
+        // collect user input data
+        if (isset($_POST['LoginForm'])) {
+            $modelLogin->attributes = $_POST['LoginForm'];
+            // validate user input and redirect to previous page if valid
+            if ($modelLogin->validate() && $modelLogin->login()) {
+                $this->redirect(Yii::app()->user->returnUrl);
+            }
+        }
+
+        $this->render('login', array('model'=>$modelLogin));
+		/*$model=new LoginForm;
 
 		// if it is ajax validation request
 		if(isset($_POST['ajax']) && $_POST['ajax']==='login-form')
@@ -95,7 +133,7 @@ class SiteController extends Controller
 				$this->redirect(Yii::app()->user->returnUrl);
 		}
 		// display the login form
-		$this->render('login',array('model'=>$model));
+		$this->render('login',array('model'=>$model));*/
 	}
 
 	/**

@@ -4,7 +4,7 @@
     <list default="true" id="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" name="Default" comment="" />
     <ignored path="socialImage.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/SiteController.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426669467836" ignored="false" />
+    <file path="/SiteController.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426739297614" ignored="false" />
     <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/frontend/controllers/UserController.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425974490415" ignored="false" />
     <file path="/UserController.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426670478083" ignored="false" />
     <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/frontend/views/themes/default/templates/user/document.phtml" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425876919358" ignored="false" />
@@ -22,12 +22,12 @@
     <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/models/Setting.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425962496959" ignored="false" />
     <file path="/Setting.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426046762563" ignored="false" />
     <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/models/Setting.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426047628969" ignored="false" />
-    <file path="/a.dummy" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426492899513" ignored="false" />
+    <file path="/a.dummy" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426735178048" ignored="false" />
     <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/views/themes/default/templates/setting/index.phtml" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426047569174" ignored="false" />
     <file path="/index.phtml" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425974068032" ignored="false" />
     <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/forms/SettingForm.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426043334139" ignored="false" />
     <file path="/SettingForm.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425981704037" ignored="false" />
-    <file path="/Dummy.txt" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426480322152" ignored="false" />
+    <file path="/Dummy.txt" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426756476227" ignored="false" />
     <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/grids/AgencyGrid.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425974490415" ignored="false" />
     <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/models/User.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425974490415" ignored="false" />
     <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/models/CommissionQuantum.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425974490415" ignored="false" />
@@ -36,7 +36,7 @@
     <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/detailviews/BankDetailView.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425974490415" ignored="false" />
     <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/detailviews/BusinessmanDetailView.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425974490415" ignored="false" />
     <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/controllers/CommissionQuantumController.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425974490415" ignored="false" />
-    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/forms/AgencyForm.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426493398084" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/forms/AgencyForm.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426756371385" ignored="false" />
     <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/controllers/BaseController.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426039120854" ignored="false" />
     <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/forms/ManagerBankForm.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425974490415" ignored="false" />
     <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/controllers/AgencyController.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426214352950" ignored="false" />
@@ -53,20 +53,20 @@
     <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/grids/elements/ActionLink.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425974490415" ignored="false" />
     <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/amici/grids/UserGrid.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426039120854" ignored="false" />
     <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/grids/CommissionQuantumContractTmpGrid.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425974490415" ignored="false" />
-    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/models/Businessman.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425974490415" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/models/Businessman.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426754324881" ignored="false" />
     <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/grids/SupervisorGrid.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425974490415" ignored="false" />
     <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/models/Commission.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425974490415" ignored="false" />
     <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/models/Contract.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425974490415" ignored="false" />
     <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/detailviews/SupervisorDetailView.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425974490415" ignored="false" />
-    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/models/Agency.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425974490415" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/models/Agency.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426753232666" ignored="false" />
     <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/models/ManagerBank.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425974490415" ignored="false" />
-    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/models/Supervisor.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425974490415" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/models/Supervisor.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426752996136" ignored="false" />
     <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/grids/CommissionQuantumAgencyGrid.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425974490415" ignored="false" />
     <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/models/CommissionQuantumContractTmp.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425974490415" ignored="false" />
     <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/detailviews/QuantumDetailView.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1425974490415" ignored="false" />
     <file path="/Commission.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426042212594" ignored="false" />
     <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/forms/SettingCreateForm.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426045315873" ignored="false" />
-    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/config/development/navigation.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426046439396" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/config/development/navigation.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426749098455" ignored="false" />
     <file path="/SettingCreateForm.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426045197589" ignored="false" />
     <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/views/themes/default/templates/setting/create.phtml" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426045057223" ignored="false" />
     <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/grids/SettingGrid.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426048503742" ignored="false" />
@@ -92,18 +92,18 @@
     <file path="/index.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426671164272" ignored="false" />
     <file path="$PROJECT_DIR$/../demo/demo php/importDb/test1.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426156284076" ignored="false" />
     <file path="/test1.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426156232899" ignored="false" />
-    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/controllers/ImportController.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426588623809" ignored="false" />
-    <file path="/ImportController.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426583869642" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/controllers/ImportController.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426754215436" ignored="false" />
+    <file path="/ImportController.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426754170700" ignored="false" />
     <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/views/themes/default/templates/import/index.phtml" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426215414854" ignored="false" />
-    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/views/themes/default/templates/import/import.phtml" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426583733714" ignored="false" />
-    <file path="/import.phtml" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426583716254" ignored="false" />
-    <file path="/dummy.xml" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426670602244" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/views/themes/default/templates/import/import.phtml" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426753996125" ignored="false" />
+    <file path="/import.phtml" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426753977062" ignored="false" />
+    <file path="/dummy.xml" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426741194015" ignored="false" />
     <file path="$PROJECT_DIR$/../ACV/proj_KabuEC/trunk/protected/config/global.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426480069361" ignored="false" />
     <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/frontend/forms/LifestyleForm.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426493666631" ignored="false" />
     <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/frontend/forms/QuantumForm.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426494442121" ignored="false" />
     <file path="/QuantumForm.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426490546171" ignored="false" />
     <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/frontend/Module.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426491252827" ignored="false" />
-    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/agency/forms/LoginForm.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426492994342" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/agency/forms/LoginForm.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426761453176" ignored="false" />
     <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/agency/Module.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426493015290" ignored="false" />
     <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/amici/forms/LoginForm.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426493078955" ignored="false" />
     <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/amici/Module.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426493130572" ignored="false" />
@@ -113,13 +113,30 @@
     <file path="/index.html" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426500612792" ignored="false" />
     <file path="$PROJECT_DIR$/../ACV/proj_KabuEC/trunk/protected/views/layouts/frontend.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426557458136" ignored="false" />
     <file path="/StatisticController.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426563967887" ignored="false" />
-    <file path="/main.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426670428486" ignored="false" />
-    <file path="/style-main.css" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426671191513" ignored="false" />
+    <file path="/main.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426737730663" ignored="false" />
+    <file path="/style-main.css" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426740287630" ignored="false" />
     <file path="/error.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426587533657" ignored="false" />
     <file path="/detailController.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426644426817" ignored="false" />
     <file path="/SettingsController.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426665240297" ignored="false" />
     <file path="/menu-left.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426667268156" ignored="false" />
     <file path="/Controller.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426665579646" ignored="false" />
+    <file path="/User.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426741054537" ignored="false" />
+    <file path="/UserIdentity.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426733371943" ignored="false" />
+    <file path="/register.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426741186551" ignored="false" />
+    <file path="/CommissionLifestyleController.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426747381758" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/backend/controllers/CommissionLifestyleController.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426756035557" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/agency/views/themes/default/layouts/partials/header.phtml" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426761834328" ignored="false" />
+    <file path="/header.phtml" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426747988408" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/agency/models/Agency.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426748235417" ignored="false" />
+    <file path="/Agency.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426748215062" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/frontend/controllers/IndexController.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426758636852" ignored="false" />
+    <file path="/IndexController.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426758504285" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/frontend/views/themes/default/templates/index/default.phtml" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426759083209" ignored="false" />
+    <file path="/default.phtml" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426758698943" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/agency/grids/AgencyGrid.php" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426760125306" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/public/skin/backend/default/css/style.css" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426761322288" ignored="false" />
+    <file path="$PROJECT_DIR$/../ACV/offshore-department/trunk/src/app/modules/agency/views/themes/default/templates/index/login.phtml" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426761310451" ignored="false" />
+    <file path="/login.phtml" changelist="edf3a426-e4fa-49f6-91bf-0042f28ae2d4" time="1426761310451" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,19 +156,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SettingsController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/controllers/SettingsController.php">
+      <file leaf-file-name="main.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/config/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="1" selection-start="0" selection-end="213" vertical-scroll-proportion="-8.5">
+            <state line="8" column="60" selection-start="362" selection-end="362" vertical-scroll-proportion="-5.230769">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menu-left.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/views/settings/partial/menu-left.php">
+      <file leaf-file-name="Common.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/components/Common.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="17" selection-start="235" selection-end="235" vertical-scroll-proportion="-2.6153846">
+            <state line="77" column="62" selection-start="2090" selection-end="2090" vertical-scroll-proportion="-13.692307">
+              <folding>
+                <marker date="1426669509457" expanded="false" signature="576:609" placeholder="..." />
+                <marker date="1426669509457" expanded="false" signature="914:947" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/views/layouts/main.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="44" selection-start="1284" selection-end="1284" vertical-scroll-proportion="-18.307692">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/views/layouts/partial/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="55" column="32" selection-start="3301" selection-end="3301" vertical-scroll-proportion="-33.384617">
               <folding />
             </state>
           </provider>
@@ -160,36 +198,43 @@
       <file leaf-file-name="SiteController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="36" selection-start="87" selection-end="87" vertical-scroll-proportion="-3.2692308">
+            <state line="87" column="23" selection-start="2201" selection-end="2201" vertical-scroll-proportion="-14.961538">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserController.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/protected/controllers/UserController.php">
+      <file leaf-file-name="User.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/models/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="1" selection-start="129" selection-end="129" vertical-scroll-proportion="0.16962306">
+            <state line="52" column="80" selection-start="1138" selection-end="1138" vertical-scroll-proportion="-12.423077">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/views/settings/index.php">
+      <file leaf-file-name="register.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/protected/views/site/register.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="42" selection-start="4799" selection-end="4799" vertical-scroll-proportion="-22.23077">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="77" column="68" selection-start="3847" selection-end="3847" vertical-scroll-proportion="0.5477327">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/views/user/index.php">
+      <file leaf-file-name="UserIdentity.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/components/UserIdentity.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="28" selection-start="98" selection-end="113" vertical-scroll-proportion="-2.6153846">
+            <state line="37" column="14" selection-start="1313" selection-end="1313" vertical-scroll-proportion="-24.192308">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CBaseUserIdentity.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yii-core/web/auth/CBaseUserIdentity.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="34" selection-start="1385" selection-end="1385" vertical-scroll-proportion="-11.884615">
               <folding />
             </state>
           </provider>
@@ -198,16 +243,7 @@
       <file leaf-file-name="style-main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/libs/css/style-main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="27" selection-start="706" selection-end="706" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/views/layouts/main.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="44" vertical-scroll-proportion="-0.0">
+            <state line="74" column="3" selection-start="1212" selection-end="1212" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -223,22 +259,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/libs/js/wow.js" />
-        <option value="$PROJECT_DIR$/protected/views/site/error.php" />
-        <option value="$PROJECT_DIR$/protected/controllers/detailController.php" />
-        <option value="$PROJECT_DIR$/protected/views/site/index.php" />
-        <option value="$PROJECT_DIR$/protected/views/detail/index.php" />
-        <option value="$PROJECT_DIR$/protected/controllers/SettingsController.php" />
-        <option value="$PROJECT_DIR$/protected/views/settings/notify.php" />
         <option value="$PROJECT_DIR$/protected/components/Controller.php" />
         <option value="$PROJECT_DIR$/protected/views/settings/partial/menu-left.php" />
         <option value="$PROJECT_DIR$/protected/views/settings/index.php" />
         <option value="$PROJECT_DIR$/protected/components/Common.php" />
-        <option value="$PROJECT_DIR$/protected/controllers/SiteController.php" />
-        <option value="$PROJECT_DIR$/protected/views/layouts/main.php" />
         <option value="$PROJECT_DIR$/protected/controllers/UserController.php" />
         <option value="$PROJECT_DIR$/protected/views/user/index.php" />
+        <option value="$PROJECT_DIR$/protected/config/database.php" />
+        <option value="$PROJECT_DIR$/protected/components/Constant.php" />
+        <option value="$PROJECT_DIR$/yii-core/web/auth/CBaseUserIdentity.php" />
+        <option value="$PROJECT_DIR$/protected/components/UserIdentity.php" />
+        <option value="$PROJECT_DIR$/protected/views/layouts/partial/header.php" />
+        <option value="$PROJECT_DIR$/protected/views/layouts/main.php" />
+        <option value="$PROJECT_DIR$/protected/controllers/SiteController.php" />
         <option value="$PROJECT_DIR$/libs/css/style-main.css" />
+        <option value="$PROJECT_DIR$/protected/models/User.php" />
+        <option value="$PROJECT_DIR$/protected/views/site/register.php" />
       </list>
     </option>
   </component>
@@ -468,6 +504,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="socialImage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="socialImage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -482,11 +536,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\socialImage\protected\views\site" />
       <recent name="D:\projects\socialImage\protected\components" />
+      <recent name="D:\projects\socialImage\protected\models" />
       <recent name="D:\projects\socialImage\images" />
       <recent name="D:\projects\socialImage\libs\css" />
-      <recent name="D:\projects\socialImage\libs" />
-      <recent name="D:\projects\socialImage\libs\js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\projects\socialImage\web\libs" />
@@ -595,109 +649,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/protected/views/layouts/column1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/settings/notify.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="8" selection-start="6" selection-end="14" vertical-scroll-proportion="-0.65384614">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="107" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/models/ContactForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/models/LoginForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="21" selection-start="815" selection-end="815" vertical-scroll-proportion="-8.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/SettingsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="1" selection-start="0" selection-end="213" vertical-scroll-proportion="-8.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="36" selection-start="87" selection-end="87" vertical-scroll-proportion="-3.2692308">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/settings/partial/menu-left.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="17" selection-start="235" selection-end="235" vertical-scroll-proportion="-2.6153846">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/layouts/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="44" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/settings/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="42" selection-start="4799" selection-end="4799" vertical-scroll-proportion="-22.23077">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/user/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="28" selection-start="98" selection-end="113" vertical-scroll-proportion="-2.6153846">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/css/style-main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="27" selection-start="706" selection-end="706" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/components/Common.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="32" selection-start="532" selection-end="537" vertical-scroll-proportion="0.42069742">
-          <folding>
-            <marker date="1426669509457" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1426669509457" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/components/UserIdentity.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/components/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="32" selection-start="809" selection-end="809" vertical-scroll-proportion="0.39578715">
@@ -708,6 +659,100 @@
     <entry file="file://$PROJECT_DIR$/protected/controllers/UserController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="1" selection-start="129" selection-end="129" vertical-scroll-proportion="0.16962306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/components/Constant.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="10" selection-start="382" selection-end="382" vertical-scroll-proportion="0.30155212">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/LoginForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="6" selection-start="167" selection-end="167" vertical-scroll-proportion="-0.037694015">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/user/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="28" selection-start="98" selection-end="113" vertical-scroll-proportion="-2.6153846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/components/Common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="62" selection-start="2090" selection-end="2090" vertical-scroll-proportion="-13.692307">
+          <folding>
+            <marker date="1426669509457" expanded="false" signature="576:609" placeholder="..." />
+            <marker date="1426669509457" expanded="false" signature="914:947" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/config/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="60" selection-start="362" selection-end="362" vertical-scroll-proportion="-5.230769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/layouts/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="44" selection-start="1284" selection-end="1284" vertical-scroll-proportion="-18.307692">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/css/style-main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="3" selection-start="1212" selection-end="1212" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/layouts/partial/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="32" selection-start="3301" selection-end="3301" vertical-scroll-proportion="-33.384617">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/components/UserIdentity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="14" selection-start="1313" selection-end="1313" vertical-scroll-proportion="-24.192308">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yii-core/web/auth/CBaseUserIdentity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="34" selection-start="1385" selection-end="1385" vertical-scroll-proportion="-11.884615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="23" selection-start="2201" selection-end="2201" vertical-scroll-proportion="-14.961538">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="80" selection-start="1138" selection-end="1138" vertical-scroll-proportion="-12.423077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/site/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="68" selection-start="3847" selection-end="3847" vertical-scroll-proportion="0.5477327">
           <folding />
         </state>
       </provider>
