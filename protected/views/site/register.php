@@ -4,7 +4,7 @@
     }
 </style>
 
-<div class="container">
+<div class="container register-div">
     <div class="row">
         <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
             <?php
@@ -85,7 +85,11 @@
                     <div class="col-xs-12 col-md-6">
                         <?php echo CHtml::submitButton('Register', array('class' => 'btn btn-primary btn-block btn-lg')); ?>
                     </div>
-                    <div class="col-xs-12 col-md-6"><a href="#" class="btn btn-success btn-block btn-lg">Sign In</a></div>
+                </div>
+                <div class="row" style="padding-top: 15px">
+                    <div class="col-md-12">
+                        You have account, sign in <a href="<?php  Yii::app()->baseUrl ?>/site/login">here</a>
+                    </div>
                 </div>
             <?php $this->endWidget(); ?>
 
