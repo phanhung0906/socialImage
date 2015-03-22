@@ -25,15 +25,12 @@ class User extends CActiveRecord
     public $password;
     public $first_name;
     public $last_name;
-    public $phone;
-    public $gender;
-    public $birthday;
-    public $status;
-    public $image;
+    public $user_name;
 
     public $change_pass;
     public $confirmPassword;
     public $agree;
+
     public function tableName()
     {
         return 'tb_user';
@@ -50,21 +47,18 @@ class User extends CActiveRecord
     public function rules()
     {
         return array(
-            array('code, email, password, first_name, last_name, confirmPassword', 'required', 'on'=>'register,updateUserInfomation'),
-            array('email', 'email','on' => 'register, updateUserInfomation'),
-            array('email','validateMail', 'on'=>'register, updateUserInfomation'),
-            
+            array('email, password, first_name, last_name, user_name', 'required', 'on'=>'register,updateAccount'),
+            array('email', 'email','on' => 'register, updateAccount'),
+            array('email','validateMail', 'on'=>'register, updateAccount'),
+            array('user_name','validateUserName', 'on'=>'register, updateAccount'),
             array('password','validatePassword','on'=>'register'),
             array('password', 'length','min' => 6, 'on'=>'register'),
             array('confirmPassword', 'compare', 'compareAttribute'=>'password', 'on'=>'register'),
-            array('agree', 'compare', 'compareValue' => true, 'message' => 'You should accept term to use our service'),
+            array('agree', 'compare', 'compareValue' => true, 'message' => 'You should accept term to use our service','on'=>'register'),
 
             //update
             array('old_password, password, confirmPassword', 'safe', 'on'=>'updateUserInfomation'),
             array('change_pass', 'validatePassword', 'on' => 'updateUserInfomation'),
-
-            array('phone', 'length','min'=>10, 'max'=>20, 'on'=>'register,updateUserInfomation'),
-            array('phone', 'match', 'pattern'=>'/^[0-9-()\s+]+$/', 'on'=>'register,updateUserInfomation'),
 
             //forgot password
             array('email', 'required', 'on' => 'forgot'),
@@ -76,8 +70,6 @@ class User extends CActiveRecord
             array('password, confirmPassword','required', 'on' => 'changepass'),
             array('password', 'length', 'min' => 6, 'on'=>'changepass'),
             array('confirmPassword', 'compare', 'compareAttribute'=>'password', 'on'=>'changepass'),
-
-            array('email, phone, first_name, last_name, gender, birthday, status', 'safe', 'on'=>'search'),
 
         );
     }
@@ -109,7 +101,7 @@ class User extends CActiveRecord
      * @param unknown $params
      */
     function validatePassword($attributes, $params){
-        if ($this->scenario == 'updateUserInfomation') {
+        if ($this->scenario == 'updateAccount') {
 
             if ($this->change_pass) {
                 $validator = CValidator::createValidator('required', $this, 'old_password, confirmPassword');
@@ -132,8 +124,7 @@ class User extends CActiveRecord
                 if(!preg_match('/^(?=.*\d)(?=.*[a-zA-Z]).+$/', $this->password)) 
                     $this->addError('password', Yii::t('app','Password must have numberic and character'));
             }
-        }
-        else {
+        } else {
             if(!preg_match('/^(?=.*\d)(?=.*[a-zA-Z]).+$/', $this->password)) 
                 $this->addError('password', Yii::t('app','Password must have numberic and character'));
         }
@@ -146,7 +137,7 @@ class User extends CActiveRecord
             $params = array(':email' => $this->$attribute);
             $condition = 'del_flg = '. Constant::DEL_FALSE .' and (email = :email)';
 
-            if ($this->scenario == 'updateUserInfomation') {
+            if ($this->scenario == 'updateAccount') {
                 $condition .= ' and id <> :user_id';
                 $params[':user_id'] = $this->id;
             }
@@ -155,6 +146,25 @@ class User extends CActiveRecord
 
             if ($count) {
                 $this->addError($attribute, Yii::t('app', '{email} already exists in the system.', array('{email}' => $this->$attribute)));
+            }
+        }
+    }
+
+    public function validateUserName($attribute, $params)
+    {
+        if (!empty($this->$attribute)) {
+            $params = array(':user_name' => $this->$attribute);
+            $condition = 'del_flg = '. Constant::DEL_FALSE .' and (user_name = :user_name)';
+
+            if ($this->scenario == 'updateAccount') {
+                $condition .= ' and id <> :user_id';
+                $params[':user_id'] = $this->id;
+            }
+
+            $count = self::model()->count($condition, $params);
+
+            if ($count) {
+                $this->addError($attribute, Yii::t('app', '{user_name} already exists in the system.', array('{email}' => $this->$attribute)));
             }
         }
     }

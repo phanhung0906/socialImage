@@ -71,17 +71,35 @@ class SiteController extends Controller
             $this->redirect(Yii::app()->getBaseUrl(true));
         }
 
-        // Setting page title
-        $this->pageTitle = Yii::t('app', 'Register');
-
-        $model = new User('register');
+        $modelUser = new User('register');
+        $modelUserDetail = new UserDetail();
 
         if (isset($_POST['User'])) {
+            $transaction = Yii::app()->db->beginTransaction();
+            try {
+                $modelUser->attributes = $_POST['User'];
+                $modelUser->user_name = uniqid();
 
+                if (!$modelUser->save()) {
+                    throw new CException(CHtml::errorSummary($modelUser));
+                }
+
+                $modelUserDetail->user_id = $modelUser->id;
+
+                if (!$modelUserDetail->save()) {
+                    throw new CException(CHtml::errorSummary($modelUserDetail));
+                }
+
+                $transaction->commit();
+                $this->redirect(Yii::app()->getBaseUrl(true));
+            } catch (Exception $e) {
+                $transaction->rollBack();
+                Yii::app()->user->setFlash('error','Regiser error');
+            }
         }
 
         $this->render('register', array(
-            'model' => $model
+            'model' => $modelUser
         ));
     }
 
@@ -90,7 +108,7 @@ class SiteController extends Controller
 	 */
 	public function actionLogin()
 	{
-        if (!Yii::app()->user->isGuest) $this->redirect(Yii::app()->user->returnUrl);
+        if (!Yii::app()->user->isGuest) $this->redirect(Yii::app()->homeUrl);
 
         // login
         $modelLogin = new LoginForm;
@@ -100,29 +118,12 @@ class SiteController extends Controller
             // validate user input and redirect to previous page if valid
             if ($modelLogin->validate() && $modelLogin->login()) {
                 $this->redirect(Yii::app()->user->returnUrl);
+            } else {
+                Yii::app()->user->setFlash('error', Yii::t('app', 'Wrong email or password! Please try again.'));
             }
         }
 
         $this->render('login', array('model'=>$modelLogin));
-		/*$model=new LoginForm;
-
-		// if it is ajax validation request
-		if(isset($_POST['ajax']) && $_POST['ajax']==='login-form')
-		{
-			echo CActiveForm::validate($model);
-			Yii::app()->end();
-		}
-
-		// collect user input data
-		if(isset($_POST['LoginForm']))
-		{
-			$model->attributes=$_POST['LoginForm'];
-			// validate user input and redirect to the previous page if valid
-			if($model->validate() && $model->login())
-				$this->redirect(Yii::app()->user->returnUrl);
-		}
-		// display the login form
-		$this->render('login',array('model'=>$model));*/
 	}
 
 	/**

@@ -11,9 +11,21 @@
             <div class="panel-body">
                 <div class="form-horizontal">
                     <div class="form-group">
-                        <label for="inputEmail3" class="col-sm-2 control-label">By email</label>
-                        <div class="col-sm-10">
-                            <input type="checkbox" name="my-checkbox" data-size="small" checked>
+                        <label class="col-sm-3 control-label">Old Password</label>
+                        <div class="col-sm-9">
+                            <input class="form-control" placeholder="Old Password">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">New Password</label>
+                        <div class="col-sm-9">
+                            <input class="form-control" placeholder="New Password">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">Re-type New Password</label>
+                        <div class="col-sm-9">
+                            <input class="form-control" placeholder="Re-type New Password">
                         </div>
                     </div>
                 </div>
@@ -30,12 +42,3 @@
         </div>
     </div>
 </div>
-
-<script type="text/javascript">
-    $(document).ready(function(){
-        $("[name='my-checkbox']").bootstrapSwitch();
-        $('body').click(function(e) {
-            console.log($("[name='my-checkbox']").val());
-        })
-    })
-</script>

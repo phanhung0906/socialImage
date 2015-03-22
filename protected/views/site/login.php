@@ -14,7 +14,7 @@
                 'clientOptions' => array(
                     'validateOnSubmit' => true,
                 ),
-                'enableClientValidation'=>true,
+//                'enableClientValidation'=>true,
             ));
             ?>
             <h2>Sign In</h2>
@@ -30,7 +30,7 @@
             <div class="row">
                 <div class="form-group">
                     <?php
-                        echo CHtml::activeTextField($model, 'password', array('class' => 'form-control input-lg', 'placeholder' => 'Password' ));
+                        echo CHtml::activePasswordField($model, 'password', array('class' => 'form-control input-lg', 'placeholder' => 'Password' ));
                         echo $form->error($model, 'password');
                     ?>
                 </div>
