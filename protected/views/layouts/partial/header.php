@@ -36,21 +36,28 @@
                 </div>
             </div>
         </form>
-        <button type="button" class="btn btn-default navbar-btn"><?php echo Yii::t('app','Upload') ?></button>
+        <?php  if (!Yii::app()->user->isGuest): ?>
+            <button type="button" class="btn btn-default navbar-btn"><?php echo Yii::t('app','Upload') ?></button>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="<?php echo $baseUrl ?>/user"><?php echo Yii::t('app','My page') ?></a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" id='image-user-bar-a-tag'><img id='image-user-bar' src="<?php echo $baseUrl ?>/images/750x450.png" alt="Account"/></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="<?php echo $baseUrl ?>/settings"><?php echo Yii::t('app','Settings') ?></a></li>
+                        <li class="divider"></li>
+                        <li class="disabled"><a href="#"><?php echo Yii::t('app','Language') ?></a></li>
+                        <li><a href="#"><?php echo Yii::t('app','English') ?></a></li>
+                        <li><a href="#"><?php echo Yii::t('app','Vietnamese') ?></a></li>
+                        <li class="divider"></li>
+                        <li><a href="<?php echo $baseUrl ?>/site/logout"><i class="fa fa-power-off"></i> <?php echo Yii::t('app','Logout') ?></a></li>
+                    </ul>
+                </li>
+            </ul>
+        <?php else: ?>
         <ul class="nav navbar-nav navbar-right">
-            <li><a href="<?php echo $baseUrl ?>/user"><?php echo Yii::t('app','My page') ?></a></li>
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" id='image-user-bar-a-tag'><img id='image-user-bar' src="<?php echo $baseUrl ?>/images/750x450.png" alt="Account"/></a>
-                <ul class="dropdown-menu" role="menu">
-                    <li><a href="<?php echo $baseUrl ?>/settings"><?php echo Yii::t('app','Settings') ?></a></li>
-                    <li class="divider"></li>
-                    <li class="disabled"><a href="#"><?php echo Yii::t('app','Language') ?></a></li>
-                    <li><a href="#"><?php echo Yii::t('app','English') ?></a></li>
-                    <li><a href="#"><?php echo Yii::t('app','Vietnamese') ?></a></li>
-                    <li class="divider"></li>
-                    <li><a href="#"><i class="fa fa-power-off"></i> <?php echo Yii::t('app','Logout') ?></a></li>
-                </ul>
-            </li>
+            <a href='<?php echo $baseUrl ?>/site/register' class="btn btn-primary navbar-btn"><?php echo Yii::t('app','Sign up') ?></a>
+            <a href='<?php echo $baseUrl ?>/site/login' class="btn btn-success navbar-btn"><?php echo Yii::t('app','Sign in') ?></a>
         </ul>
-    </div><!-- /.navbar-collapse -->
-</div><!-- /.container-fluid -->
+        <?php endif; ?>
+    </div>
+</div>

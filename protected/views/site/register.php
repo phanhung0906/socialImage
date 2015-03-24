@@ -8,14 +8,12 @@
     <div class="row">
         <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
             <?php
-            $form = $this->beginWidget('CActiveForm', array(
-                'id' => 'user_register',
-//            'enableAjaxValidation' => true,
-                'clientOptions' => array(
-                    'validateOnSubmit' => true,
-                ),
-                'enableClientValidation'=>true,
-            ));
+                $form = $this->beginWidget('CActiveForm', array(
+                    'id' => 'user_register',
+                    'clientOptions' => array(
+                        'validateOnSubmit' => true,
+                    ),
+                ));
             ?>
                 <h2>Please Sign Up <small>It's free and always will be.</small></h2>
                 <hr class="colorgraph">
@@ -47,7 +45,7 @@
                     <div class="col-xs-12 col-sm-6 col-md-6">
                         <div class="form-group">
                             <?php
-                                echo CHtml::activeTextField($model, 'password', array('class' => 'form-control input-lg', 'placeholder' => 'Password' ));
+                                echo CHtml::activePasswordField($model, 'password', array('class' => 'form-control input-lg', 'placeholder' => 'Password' ));
                                 echo $form->error($model, 'password');
                             ?>
                         </div>
@@ -55,7 +53,7 @@
                     <div class="col-xs-12 col-sm-6 col-md-6">
                         <div class="form-group">
                             <?php
-                                echo CHtml::activeTextField($model, 'confirmPassword', array('class' => 'form-control input-lg', 'placeholder' => 'Confirm Password' ));
+                                echo CHtml::activePasswordField($model, 'confirmPassword', array('class' => 'form-control input-lg', 'placeholder' => 'Confirm Password' ));
                                 echo $form->error($model, 'confirmPassword');
                             ?>
                         </div>

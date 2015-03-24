@@ -40,6 +40,6 @@ class UserIdentity extends CUserIdentity
             $this->setState('id', $users->id);
             $this->setState('username', $users->email);
         }
-        return $this->errorCode;
+        return !$this->errorCode;
 	}
 }
