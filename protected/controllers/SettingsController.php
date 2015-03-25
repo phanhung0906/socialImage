@@ -2,8 +2,6 @@
 
 class SettingsController extends Controller{
 
-   public $userId;
-
     public function beforeAction()
     {
         if (Yii::app()->user->isGuest) {

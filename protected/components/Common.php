@@ -132,8 +132,8 @@ class Common
      * method use : baseUrl('admin/use') ,instead use Yii::app()->baseUrl.'admin/use'
     */
     
-    public static function baseUrl($baseUrl){
-        return Yii::app()->baseUrl.$baseUrl;
+    public static function getBaseUrl($baseUrl){
+        return Yii::app()->getBaseUrl(true).'/'.$baseUrl;
     }
     
     

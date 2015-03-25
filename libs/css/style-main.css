@@ -6,8 +6,6 @@ footer{
     background-color: #f5f5f5;
     border-top: 1px solid #ddd;
     padding: 20px 30px;
-    position: absolute;
-    bottom: 0;
     width: 100%;
 }
 #page{
@@ -80,4 +78,33 @@ a:hover{
 /* Register */
 .register-div{
     margin-top: 5%;
+}
+/* Album and photo */
+.item {
+    margin: 14px 7px 0 7px;
+    float: left;
+}
+.BoardCreateRep {
+    padding-top: 50%;
+    background: rgba(0, 0, 0, 0.03);
+    border: 2px dashed #bbb;
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: #888;
+    cursor: pointer;
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    text-shadow: 0 1px 1px #fff;
+    width: 236px;
+    height: 297px;
+}
+.div-edit-album{
+    position: relative;
+}
+.edit-album{
+    position: absolute;
+    right:0;
 }
