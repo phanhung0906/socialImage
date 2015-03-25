@@ -2193,3 +2193,62 @@ REQUEST_URI=/user/album/code/55123cefc00c1
 in D:\projects\socialImage\protected\views\user\album.php (1)
 in D:\projects\socialImage\protected\controllers\UserController.php (54)
 in D:\projects\socialImage\index.php (13)
+2015/03/25 14:24:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/03/25 14:25:18 [warning] [application] Failed to set unsafe attribute "rememberme" of "LoginForm".
+in D:\projects\socialImage\protected\controllers\SiteController.php (119)
+in D:\projects\socialImage\index.php (13)
+2015/03/25 14:25:22 [warning] [application] Failed to set unsafe attribute "rememberme" of "LoginForm".
+in D:\projects\socialImage\protected\controllers\SiteController.php (119)
+in D:\projects\socialImage\index.php (13)
+2015/03/25 14:26:34 [error] [php] nl2br() expects parameter 1 to be string, array given (D:\projects\socialImage\protected\controllers\UserController.php:32)
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\projects\socialImage\yii-core\web\CController.php(286): UserController->runAction()
+#2 D:\projects\socialImage\yii-core\web\CController.php(265): UserController->runActionWithFilters()
+#3 D:\projects\socialImage\yii-core\web\CWebApplication.php(282): UserController->run()
+#4 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#6 D:\projects\socialImage\index.php(13): CWebApplication->run()
+REQUEST_URI=/user/board
+in D:\projects\socialImage\protected\controllers\UserController.php (32)
+in D:\projects\socialImage\index.php (13)
+2015/03/25 14:27:28 [error] [php] nl2br() expects parameter 1 to be string, array given (D:\projects\socialImage\protected\controllers\UserController.php:32)
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\projects\socialImage\yii-core\web\CController.php(286): UserController->runAction()
+#2 D:\projects\socialImage\yii-core\web\CController.php(265): UserController->runActionWithFilters()
+#3 D:\projects\socialImage\yii-core\web\CWebApplication.php(282): UserController->run()
+#4 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#6 D:\projects\socialImage\index.php(13): CWebApplication->run()
+REQUEST_URI=/user/board
+in D:\projects\socialImage\protected\controllers\UserController.php (32)
+in D:\projects\socialImage\index.php (13)
+2015/03/25 14:27:31 [error] [php] nl2br() expects parameter 1 to be string, array given (D:\projects\socialImage\protected\controllers\UserController.php:32)
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\projects\socialImage\yii-core\web\CController.php(286): UserController->runAction()
+#2 D:\projects\socialImage\yii-core\web\CController.php(265): UserController->runActionWithFilters()
+#3 D:\projects\socialImage\yii-core\web\CWebApplication.php(282): UserController->run()
+#4 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#6 D:\projects\socialImage\index.php(13): CWebApplication->run()
+REQUEST_URI=/user/board
+in D:\projects\socialImage\protected\controllers\UserController.php (32)
+in D:\projects\socialImage\index.php (13)
+2015/03/25 14:35:31 [warning] [application] Failed to set unsafe attribute "description" of "Album".
+in D:\projects\socialImage\protected\controllers\UserController.php (32)
+in D:\projects\socialImage\index.php (13)
+2015/03/25 14:39:08 [warning] [application] Failed to set unsafe attribute "description" of "Album".
+in D:\projects\socialImage\protected\controllers\UserController.php (32)
+in D:\projects\socialImage\index.php (13)
+2015/03/25 14:52:25 [warning] [application] Failed to set unsafe attribute "description" of "Album".
+in D:\projects\socialImage\protected\controllers\UserController.php (32)
+in D:\projects\socialImage\index.php (13)

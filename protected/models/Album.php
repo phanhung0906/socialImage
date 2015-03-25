@@ -23,7 +23,7 @@ class Album extends CActiveRecord{
     {
         return array(
             array('name','required'),
-            array('description', 'length', 'max' => 45)
+            array('name', 'length', 'max' => 45)
         );
     }
 

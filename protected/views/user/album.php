@@ -3,7 +3,7 @@
     <div class="div-edit-album">
         <a class="btn btn-default edit-album">Edit</a>
         <h3 class='col-md-6'><?php echo $album->name ?>
-            <div><small>This is description This is description This is description This is description This is description</small></div>
+            <div><small><?php echo nl2br($album->description) ?></small></div>
             <div><small>Updated about 3 months ago</small></div>
         </h3>
     </div>

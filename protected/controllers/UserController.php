@@ -29,7 +29,8 @@ class UserController extends Controller
         $album = new Album();
 
         if (isset($_POST['Album'])) {
-            $album->attributes = nl2br($_POST['Album']);
+            $album->attributes = $_POST['Album'];
+            $album->description = trim($_POST['Album']['description']);
             $album->user_id = $userId;
             $album->code = uniqid();
 
