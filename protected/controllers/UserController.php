@@ -48,10 +48,21 @@ class UserController extends Controller
 
     public function actionAlbum($code)
     {
-        $album = Album::model()->findByAttributes(array('code' => $code));
+        $album = Album::model()->findByAttributes(array('code' => $code, 'del_flg' => Constant::DEL_FALSE));
+
+        if(!$album) $this->redirect(array('index'));
+
+        $photo = new Photo();
+
+        /*if(isset($_POST['Photo'])){
+            $photo->attributes = $_POST['Photo'];
+            Common::debugdie($photo->validate());
+            var_dump($_POST['Photo']);die;
+        }*/
 
         $this->render('album', array(
-            'album' => $album
+            'album' => $album,
+            'photo' => $photo
         ));
     }
 }

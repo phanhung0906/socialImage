@@ -17,6 +17,21 @@
             <div class="panel-body">
                 <div class="form-horizontal">
                     <div class="form-group">
+                        <label for="inputEmail3" class="col-sm-2 control-label">Full name</label>
+                        <div class="col-sm-5">
+                            <?php
+                                echo CHtml::activeTextField($user, 'first_name', array('class' => 'form-control', 'placeholder' => 'First Name' ));
+                                echo $form->error($user, 'first_name');
+                            ?>
+                        </div>
+                        <div class="col-sm-5">
+                            <?php
+                                echo CHtml::activeTextField($user, 'last_name', array('class' => 'form-control', 'placeholder' => 'Last Name' ));
+                                echo $form->error($user, 'last_name');
+                            ?>
+                        </div>
+                    </div>
+                    <div class="form-group">
                        <?php  echo CHtml::activeLabelEx($user, 'user_name', array('class' => 'col-sm-2 control-label')); ?>
                         <div class="col-sm-10">
                             <?php
@@ -27,12 +42,9 @@
                         </div>
                     </div>
                     <div class="form-group">
-                        <?php  echo CHtml::activeLabelEx($user, 'email', array('class' => 'col-sm-2 control-label')); ?>
-                        <div class="col-sm-10">
-                            <?php
-                                echo CHtml::activeTextField($user, 'email', array('class' => 'form-control', 'placeholder' => 'Email' ));
-                                echo $form->error($user, 'email');
-                            ?>
+                        <label class="col-sm-2 control-label"><?php echo Yii::t('app', 'Email') ?></label>
+                        <div class="col-sm-10" style='padding-top: 7px'>
+                            <?php echo $email ?>
                         </div>
                     </div>
                     <div class="form-group">

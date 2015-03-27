@@ -16,11 +16,11 @@ class SettingsController extends Controller{
     public function actionIndex()
     {
         $user = User::model()->findByPk($this->userId);
+        $email = $user->email;
+        $user->scenario = 'updateAccount';
 
         if (isset($_POST['User'])) {
             $user->attributes = $_POST['User'];
-            $user->user_name = $_POST['User']['user_name'];
-            $user->scenario = 'updateAccount';
 
             if ($user->save()) {
                 Yii::app()->user->setFlash('success','Update info successfully');
@@ -28,7 +28,8 @@ class SettingsController extends Controller{
         }
 
         $this->render('index', array(
-            'user' => $user
+            'user' => $user,
+            'email' => $email
         ));
     }
 
@@ -40,9 +41,15 @@ class SettingsController extends Controller{
     public function actionChangePassword()
     {
         $user = User::model()->findByPk($this->userId);
+        $user->setScenario('changePassword');
 
         if (isset($_POST['User'])) {
+            $user->attributes = $_POST['User'];
+            $user->password = Common::genPassword($_POST['User']['newPassword']);
 
+            if ($user->save()) {
+                Yii::app()->user->setFlash('success', 'Change password successfully');
+            }
         }
 
         $this->render('changePassword', array(

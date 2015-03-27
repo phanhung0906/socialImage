@@ -1,12 +1,80 @@
-<!--<style type="text/css">
-    .div-edit-album{
-        position: relative;
+<style type="text/css">
+    .show-image-album{
+        cursor: pointer;
+        width: 100%;
+        height: 250px;
+        background: url(<?php echo Yii::app()->createUrl('images/750x450.png') ?>) no-repeat center center;
+        background-size: cover;
+        overflow: hidden;
     }
-    .edit-album{
-        position: absolute;
-        right:0;
+
+    .show-image-album:hover{
+        -webkit-animation: animatedBackground 1s ease-out 1;
+        -moz-animation: animatedBackground 1s ease-out 1;
+        animation: animatedBackground 1s ease-out 1;
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
     }
-</style>-->
+    @-webkit-keyframes animatedBackground {
+        0% {
+            -webkit-transform: scale(1, 1);
+            -moz-transform: scale(1, 1);
+            -ms-transform: scale(1, 1);
+            -o-transform: scale(1, 1);
+            transform: scale(1, 1)
+        }
+        100% {
+            -webkit-transform: scale(1.1, 1.1);
+            -moz-transform: scale(1.1, 1.1);
+            -ms-transform: scale(1.1, 1.1);
+            -o-transform: scale(1.1, 1.1);
+            transform: scale(1.1, 1.1)
+        }
+
+    }
+
+
+    @-moz-keyframes animatedBackground {
+        0% {
+            -webkit-transform: scale(1, 1);
+            -moz-transform: scale(1, 1);
+            -ms-transform: scale(1, 1);
+            -o-transform: scale(1, 1);
+            transform: scale(1, 1)
+        }
+        100% {
+            -webkit-transform: scale(1.1, 1.1);
+            -moz-transform: scale(1.1, 1.1);
+            -ms-transform: scale(1.1, 1.1);
+            -o-transform: scale(1.1, 1.1);
+            transform: scale(1.1, 1.1)
+        }
+
+    }
+    @keyframes animatedBackground {
+        0% {
+            -webkit-transform: scale(1, 1);
+            -moz-transform: scale(1, 1);
+            -ms-transform: scale(1, 1);
+            -o-transform: scale(1, 1);
+            transform: scale(1, 1)
+        }
+        100% {
+            -webkit-transform: scale(1.1, 1.1);
+            -moz-transform: scale(1.1, 1.1);
+            -ms-transform: scale(1.1, 1.1);
+            -o-transform: scale(1.1, 1.1);
+            transform: scale(1.1, 1.1)
+        }
+
+    }
+
+    .link-photo{
+        overflow: hidden;
+        height: 250px;
+        display: block;
+    }
+</style>
 <div class="white-page">
     <div class='text-center padding-content'>
         <img src="<?php echo Yii::app()->createUrl('images/750x450.png') ?>" alt="..." class="img-circle img-profile">
@@ -16,14 +84,17 @@
 
 <div class="container">
     <div class="item">
-        <a class="BoardCreateRep" data-toggle="modal" data-target="#myModal">
+        <a class="BoardCreateRep add-new-album" data-toggle="modal" data-target="#myModal">
             <i class="fa fa-plus-circle"></i>
             <span><?php echo Yii::t('app', 'New Album') ?></span>
         </a>
     </div>
     <?php foreach($ownAlbum as $al): ?>
-        <div class="item">
-            <a class="BoardCreateRep" href="<?php echo Yii::app()->createUrl('user/album/code/'.$al->code) ?>">
+        <div class="item BoardCreateRep">
+            <a class="link-photo" href="<?php echo Yii::app()->createUrl('user/album/code/'.$al->code) ?>">
+            <div class='show-image-album'>
+
+            </div>
             </a>
             <div class='text-primary'><?php echo htmlspecialchars($al->name) ?></div>
             <div class='div-edit-album'><span>25 photos</span></div>

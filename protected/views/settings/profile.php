@@ -4,21 +4,20 @@
 <div class="container">
     <?php require_once('partial/menu-left.php'); ?>
     <div class="col-md-9">
+        <?php
+            $form = $this->beginWidget('CActiveForm', array(
+                'id' => 'user_register',
+                'clientOptions' => array(
+                    'validateOnSubmit' => true,
+                ),
+            ));
+        ?>
         <div class="panel panel-default">
             <div class="panel-heading">
                 <h3 class="panel-title">Information</h3>
             </div>
             <div class="panel-body">
                 <div class="form-horizontal">
-                    <div class="form-group">
-                        <label for="inputEmail3" class="col-sm-2 control-label">Full name</label>
-                        <div class="col-sm-5">
-                            <input type="email" class="form-control" placeholder="First Name">
-                        </div>
-                        <div class="col-sm-5">
-                            <input type="email" class="form-control" placeholder="Last Name">
-                        </div>
-                    </div>
                     <div class="form-group">
                         <label for="inputPassword3" class="col-sm-2 control-label">Image</label>
                         <div class="col-sm-10">

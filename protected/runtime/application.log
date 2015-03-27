@@ -2252,3 +2252,181 @@ in D:\projects\socialImage\index.php (13)
 2015/03/25 14:52:25 [warning] [application] Failed to set unsafe attribute "description" of "Album".
 in D:\projects\socialImage\protected\controllers\UserController.php (32)
 in D:\projects\socialImage\index.php (13)
+2015/03/27 03:31:25 [warning] [application] Failed to set unsafe attribute "description" of "Photo".
+in D:\projects\socialImage\protected\controllers\UserController.php (57)
+in D:\projects\socialImage\index.php (13)
+2015/03/27 05:50:34 [error] [php] include(validatePassword.php): failed to open stream: No such file or directory (D:\projects\socialImage\yii-core\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 D:\projects\socialImage\yii-core\YiiBase.php(303): class_exists()
+#2 D:\projects\socialImage\yii-core\validators\CValidator.php(174): import()
+#3 D:\projects\socialImage\yii-core\base\CModel.php(287): createValidator()
+#4 D:\projects\socialImage\yii-core\base\CModel.php(260): User->createValidators()
+#5 D:\projects\socialImage\yii-core\base\CModel.php(304): User->getValidators()
+#6 D:\projects\socialImage\yii-core\web\helpers\CHtml.php(1513): User->isAttributeRequired()
+#7 D:\projects\socialImage\protected\views\settings\changePassword.php(23): activeLabelEx()
+#8 D:\projects\socialImage\yii-core\web\CBaseController.php(126): require()
+#9 D:\projects\socialImage\yii-core\web\CBaseController.php(95): SettingsController->renderInternal()
+#10 D:\projects\socialImage\yii-core\web\CController.php(869): SettingsController->renderFile()
+#11 D:\projects\socialImage\yii-core\web\CController.php(782): SettingsController->renderPartial()
+#12 D:\projects\socialImage\protected\controllers\SettingsController.php(50): SettingsController->render()
+#13 D:\projects\socialImage\yii-core\web\actions\CInlineAction.php(49): SettingsController->actionChangePassword()
+#14 D:\projects\socialImage\yii-core\web\CController.php(308): CInlineAction->runWithParams()
+#15 D:\projects\socialImage\yii-core\web\CController.php(286): SettingsController->runAction()
+#16 D:\projects\socialImage\yii-core\web\CController.php(265): SettingsController->runActionWithFilters()
+#17 D:\projects\socialImage\yii-core\web\CWebApplication.php(282): SettingsController->run()
+#18 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController()
+#19 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#20 D:\projects\socialImage\index.php(13): CWebApplication->run()
+REQUEST_URI=/settings/changePassword
+in D:\projects\socialImage\protected\views\settings\changePassword.php (23)
+in D:\projects\socialImage\protected\controllers\SettingsController.php (50)
+in D:\projects\socialImage\index.php (13)
+2015/03/27 05:50:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/03/27 05:50:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/03/27 05:52:23 [error] [php] include(validateOldPassword.php): failed to open stream: No such file or directory (D:\projects\socialImage\yii-core\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 D:\projects\socialImage\yii-core\YiiBase.php(303): class_exists()
+#2 D:\projects\socialImage\yii-core\validators\CValidator.php(174): import()
+#3 D:\projects\socialImage\yii-core\base\CModel.php(287): createValidator()
+#4 D:\projects\socialImage\yii-core\base\CModel.php(260): User->createValidators()
+#5 D:\projects\socialImage\yii-core\web\helpers\CHtml.php(2435): User->getValidators()
+#6 D:\projects\socialImage\yii-core\web\helpers\CHtml.php(1533): activeInputField()
+#7 D:\projects\socialImage\protected\views\site\register.php(24): activeTextField()
+#8 D:\projects\socialImage\yii-core\web\CBaseController.php(126): require()
+#9 D:\projects\socialImage\yii-core\web\CBaseController.php(95): SiteController->renderInternal()
+#10 D:\projects\socialImage\yii-core\web\CController.php(869): SiteController->renderFile()
+#11 D:\projects\socialImage\yii-core\web\CController.php(782): SiteController->renderPartial()
+#12 D:\projects\socialImage\protected\controllers\SiteController.php(105): SiteController->render()
+#13 D:\projects\socialImage\yii-core\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#14 D:\projects\socialImage\yii-core\web\CController.php(308): CInlineAction->runWithParams()
+#15 D:\projects\socialImage\yii-core\web\CController.php(286): SiteController->runAction()
+#16 D:\projects\socialImage\yii-core\web\CController.php(265): SiteController->runActionWithFilters()
+#17 D:\projects\socialImage\yii-core\web\CWebApplication.php(282): SiteController->run()
+#18 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController()
+#19 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#20 D:\projects\socialImage\index.php(13): CWebApplication->run()
+REQUEST_URI=/site/register
+in D:\projects\socialImage\protected\views\site\register.php (24)
+in D:\projects\socialImage\protected\controllers\SiteController.php (105)
+in D:\projects\socialImage\index.php (13)
+2015/03/27 05:52:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/03/27 05:52:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/03/27 05:52:47 [error] [exception.CException] exception 'CException' with message 'User has an invalid validation rule. The rule must specify attributes to be validated and the validator name.' in D:\projects\socialImage\yii-core\base\CModel.php:289
+Stack trace:
+#0 D:\projects\socialImage\yii-core\base\CModel.php(260): CModel->createValidators()
+#1 D:\projects\socialImage\yii-core\web\helpers\CHtml.php(2435): CModel->getValidators('first_name')
+#2 D:\projects\socialImage\yii-core\web\helpers\CHtml.php(1533): CHtml::activeInputField('text', Object(User), 'first_name', Array)
+#3 D:\projects\socialImage\protected\views\site\register.php(24): CHtml::activeTextField(Object(User), 'first_name', Array)
+#4 D:\projects\socialImage\yii-core\web\CBaseController.php(126): require('D:\\projects\\soc...')
+#5 D:\projects\socialImage\yii-core\web\CBaseController.php(95): CBaseController->renderInternal('D:\\projects\\soc...', Array, true)
+#6 D:\projects\socialImage\yii-core\web\CController.php(869): CBaseController->renderFile('D:\\projects\\soc...', Array, true)
+#7 D:\projects\socialImage\yii-core\web\CController.php(782): CController->renderPartial('register', Array, true)
+#8 D:\projects\socialImage\protected\controllers\SiteController.php(105): CController->render('register', Array)
+#9 D:\projects\socialImage\yii-core\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#10 D:\projects\socialImage\yii-core\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 D:\projects\socialImage\yii-core\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 D:\projects\socialImage\yii-core\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\projects\socialImage\yii-core\web\CWebApplication.php(282): CController->run('register')
+#14 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('site/register')
+#15 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#16 D:\projects\socialImage\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/site/register
+HTTP_REFERER=http://socialimage.local/
+---
+2015/03/27 05:53:39 [warning] [application] Failed to set unsafe attribute "rememberme" of "LoginForm".
+in D:\projects\socialImage\protected\controllers\SiteController.php (119)
+in D:\projects\socialImage\index.php (13)
+2015/03/27 05:53:56 [warning] [application] Failed to set unsafe attribute "rememberme" of "LoginForm".
+in D:\projects\socialImage\protected\controllers\SiteController.php (119)
+in D:\projects\socialImage\index.php (13)
+2015/03/27 05:54:19 [warning] [application] Failed to set unsafe attribute "rememberme" of "LoginForm".
+in D:\projects\socialImage\protected\controllers\SiteController.php (119)
+in D:\projects\socialImage\index.php (13)
+2015/03/27 05:55:00 [warning] [application] Failed to set unsafe attribute "rememberme" of "LoginForm".
+in D:\projects\socialImage\protected\controllers\SiteController.php (119)
+in D:\projects\socialImage\index.php (13)
+2015/03/27 07:50:33 [warning] [application] Failed to set unsafe attribute "rememberme" of "LoginForm".
+in D:\projects\socialImage\protected\controllers\SiteController.php (119)
+in D:\projects\socialImage\index.php (13)
+2015/03/27 08:11:58 [warning] [application] Failed to set unsafe attribute "rememberme" of "LoginForm".
+in D:\projects\socialImage\protected\controllers\SiteController.php (119)
+in D:\projects\socialImage\index.php (13)
+2015/03/27 08:17:42 [warning] [application] Failed to set unsafe attribute "first_name" of "User".
+in D:\projects\socialImage\protected\controllers\SettingsController.php (21)
+in D:\projects\socialImage\index.php (13)
+2015/03/27 08:17:42 [warning] [application] Failed to set unsafe attribute "last_name" of "User".
+in D:\projects\socialImage\protected\controllers\SettingsController.php (21)
+in D:\projects\socialImage\index.php (13)
+2015/03/27 08:17:42 [warning] [application] Failed to set unsafe attribute "user_name" of "User".
+in D:\projects\socialImage\protected\controllers\SettingsController.php (21)
+in D:\projects\socialImage\index.php (13)
+2015/03/27 08:18:32 [warning] [application] Failed to set unsafe attribute "first_name" of "User".
+in D:\projects\socialImage\protected\controllers\SettingsController.php (21)
+in D:\projects\socialImage\index.php (13)
+2015/03/27 08:18:32 [warning] [application] Failed to set unsafe attribute "last_name" of "User".
+in D:\projects\socialImage\protected\controllers\SettingsController.php (21)
+in D:\projects\socialImage\index.php (13)
+2015/03/27 08:18:32 [warning] [application] Failed to set unsafe attribute "user_name" of "User".
+in D:\projects\socialImage\protected\controllers\SettingsController.php (21)
+in D:\projects\socialImage\index.php (13)
+2015/03/27 08:19:00 [warning] [application] Failed to set unsafe attribute "first_name" of "User".
+in D:\projects\socialImage\protected\controllers\SettingsController.php (21)
+in D:\projects\socialImage\index.php (13)
+2015/03/27 08:19:00 [warning] [application] Failed to set unsafe attribute "last_name" of "User".
+in D:\projects\socialImage\protected\controllers\SettingsController.php (21)
+in D:\projects\socialImage\index.php (13)
+2015/03/27 08:19:00 [warning] [application] Failed to set unsafe attribute "user_name" of "User".
+in D:\projects\socialImage\protected\controllers\SettingsController.php (21)
+in D:\projects\socialImage\index.php (13)
+2015/03/27 08:21:55 [warning] [application] Failed to set unsafe attribute "first_name" of "User".
+in D:\projects\socialImage\protected\controllers\SettingsController.php (21)
+in D:\projects\socialImage\index.php (13)
+2015/03/27 08:21:55 [warning] [application] Failed to set unsafe attribute "last_name" of "User".
+in D:\projects\socialImage\protected\controllers\SettingsController.php (21)
+in D:\projects\socialImage\index.php (13)
+2015/03/27 08:21:55 [warning] [application] Failed to set unsafe attribute "user_name" of "User".
+in D:\projects\socialImage\protected\controllers\SettingsController.php (21)
+in D:\projects\socialImage\index.php (13)
+2015/03/27 08:23:43 [warning] [application] Failed to set unsafe attribute "first_name" of "User".
+in D:\projects\socialImage\protected\controllers\SettingsController.php (21)
+in D:\projects\socialImage\index.php (13)
+2015/03/27 08:23:43 [warning] [application] Failed to set unsafe attribute "last_name" of "User".
+in D:\projects\socialImage\protected\controllers\SettingsController.php (21)
+in D:\projects\socialImage\index.php (13)
+2015/03/27 08:23:43 [warning] [application] Failed to set unsafe attribute "user_name" of "User".
+in D:\projects\socialImage\protected\controllers\SettingsController.php (21)
+in D:\projects\socialImage\index.php (13)
+2015/03/27 09:46:06 [warning] [application] Failed to set unsafe attribute "rememberme" of "LoginForm".
+in D:\projects\socialImage\protected\controllers\SiteController.php (119)
+in D:\projects\socialImage\index.php (13)

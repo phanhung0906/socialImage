@@ -27,8 +27,10 @@ class User extends CActiveRecord
     public $last_name;
     public $user_name;
 
-    public $change_pass;
     public $confirmPassword;
+    public $oldPassword;
+    public $newPassword;
+    public $retypePassword;
     public $agree;
 
     public function tableName()
@@ -47,7 +49,7 @@ class User extends CActiveRecord
     public function rules()
     {
         return array(
-            array('email, password, first_name, last_name, user_name', 'required', 'on'=>'register,updateAccount'),
+            array('email, password, first_name, last_name, user_name', 'required', 'on'=>'register, updateAccount'),
             array('email', 'email','on' => 'register, updateAccount'),
             array('email','validateMail', 'on'=>'register, updateAccount'),
             array('user_name','validateUserName', 'on'=>'register, updateAccount'),
@@ -58,7 +60,6 @@ class User extends CActiveRecord
 
             //update
             array('old_password, password, confirmPassword', 'safe', 'on'=>'updateUserInfomation'),
-            array('change_pass', 'validatePassword', 'on' => 'updateUserInfomation'),
 
             //forgot password
             array('email', 'required', 'on' => 'forgot'),
@@ -67,9 +68,10 @@ class User extends CActiveRecord
             array('memship_id', 'required', 'on'=>'upgradeMember'),
 
             // change password
-            array('password, confirmPassword','required', 'on' => 'changepass'),
-            array('password', 'length', 'min' => 6, 'on'=>'changepass'),
-            array('confirmPassword', 'compare', 'compareAttribute'=>'password', 'on'=>'changepass'),
+            array('oldPassword, newPassword', 'required', 'on' => 'changePassword'),
+            array('oldPassword', 'validatePassword', 'on' => 'changePassword'),
+            array('newPassword', 'length', 'min' => 6, 'on' => 'changePassword'),
+            array('retypePassword', 'compare', 'compareAttribute' => 'newPassword', 'on'=>'changePassword'),
 
         );
     }
@@ -95,42 +97,18 @@ class User extends CActiveRecord
         }
     }*/
 
-    /**
-     * Password must have character and numberic
-     * @param unknown $attributes
-     * @param unknown $params
-     */
-    function validatePassword($attributes, $params){
-        if ($this->scenario == 'updateAccount') {
+    public function validatePassword($attributes, $params) {
+        if ($this->scenario == 'changePassword') {
+            $userId = Yii::app()->user->getState('id');
+            $user = self::model()->findByPk($userId);
 
-            if ($this->change_pass) {
-                $validator = CValidator::createValidator('required', $this, 'old_password, confirmPassword');
-                $validator->validate($this);
-                
-                $validator = CValidator::createValidator('required', $this, 'password', array('message' => Yii::t('yii','{attribute} cannot be blank.', 
-                        array('{attribute}' => Yii::t('app','New password')))));
-                $validator->validate($this);
-                
-                if (Common::decodePassword($this->hash_password) != $this->old_password) {
-                    $this->addError('old_password', Yii::t('app','{attribute} must be the same as stored password', array('{attribute}' => $this->getAttributeLabel('old_password'))));
-                }
-                
-                $validator = CValidator::createValidator('length', $this, 'password', array('min' => 6));
-                $validator->validate($this);
-                
-                $validator = CValidator::createValidator('compare', $this, 'confirmPassword', array('compareAttribute' => 'password'));
-                $validator->validate($this);
-                
-                if(!preg_match('/^(?=.*\d)(?=.*[a-zA-Z]).+$/', $this->password)) 
-                    $this->addError('password', Yii::t('app','Password must have numberic and character'));
-            }
+            if($this->$attributes != Common::decodePassword($user->password))
+                $this->addError($attributes, Yii::t('app', 'Old password is wrong'));
         } else {
-            if(!preg_match('/^(?=.*\d)(?=.*[a-zA-Z]).+$/', $this->password)) 
+            if(!preg_match('/^(?=.*\d)(?=.*[a-zA-Z]).+$/', $this->password))
                 $this->addError('password', Yii::t('app','Password must have numberic and character'));
         }
-
     }
-
 
     public function validateMail($attribute, $params) {
         if (!empty($this->$attribute)) {
