@@ -3,6 +3,7 @@
 class Photo extends CActiveRecord{
 
     public $id;
+    public $album_id;
     public $code;
     public $name;
     public $description;
@@ -24,9 +25,6 @@ class Photo extends CActiveRecord{
     {
         return array(
             array('name, url','required'),
-            array('name', 'length', 'max' => 45),
-            array('url', 'file', 'types'=>'jpg, gif, png'),
-
         );
     }
 

@@ -17,10 +17,13 @@
     <link href="<?php echo $baseUrl ?>/libs/css/jquery.bxslider.css" rel="stylesheet" type="text/css" />
     <!-- wow css -->
     <link rel="stylesheet" href="<?php echo $baseUrl ?>/libs/css/animate.css">
+    <!-- sweet alert -->
+    <link href="<?php echo $baseUrl ?>/libs/css/sweet-alert.css" rel="stylesheet" type="text/css" />
     <!-- style -->
     <link href="<?php echo $baseUrl ?>/libs/css/style-main.css" rel="stylesheet" type="text/css" />
     <!-- jQuery -->
     <script src="<?php echo $baseUrl ?>/libs/js/libs/jquery-2.0.2.min.js"></script>
+
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
 
@@ -67,6 +70,8 @@
 <script src="<?php echo $baseUrl ?>/libs/js/wow.min.js"></script>
 <!-- bxslider -->
 <script src="<?php echo $baseUrl ?>/libs/js/jquery.bxslider.min.js"></script>
+<!-- Bootstrap 3.0.3 -->
+<script src="<?php echo $baseUrl ?>/libs/js/sweet-alert.min.js"></script>
 <script>
     new WOW().init();
 </script>

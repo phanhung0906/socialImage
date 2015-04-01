@@ -38,7 +38,7 @@
             <div class="row">
                 <span class="button-checkbox">
                     <?php
-                        echo CHtml::activeCheckBox($model, 'rememberme').'&nbsp';
+                        echo CHtml::activeCheckBox($model, 'rememberme',array('style'=> 'margin-right:5px'));
                         echo CHtml::activeLabelEx($model, 'rememberme');
                     ?>
 
