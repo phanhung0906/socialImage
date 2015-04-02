@@ -26,7 +26,6 @@
                 </div>
             </a>
             <div class='text-primary'></div>
-            <div class='div-edit-album'><span>25 photos</span></div>
         </div>
     <?php endforeach; ?>
 

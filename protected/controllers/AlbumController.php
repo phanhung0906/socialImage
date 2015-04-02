@@ -25,7 +25,7 @@ class AlbumController extends Controller{
         $userId = Yii::app()->user->getState('id');
         $userPageId = $album->user_id;
         $userPageInfo = User::model()->findByPk($userPageId);
-        $listPhoto = Photo::model()->findAllByAttributes(array('album_id' => $album->id, 'del_flg' => Constant::DEL_FALSE));
+        $listPhoto = Photo::model()->findAllByAttributes(array('album_id' => $album->id, 'del_flg' => Constant::DEL_FALSE), array('order' => 'created DESC'));
         $step = 1;
 
         if($update){
