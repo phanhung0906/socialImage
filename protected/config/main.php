@@ -59,6 +59,7 @@ return array(
             'rules' => array(
                 'user/<username:\w+>' => 'user/view',
                 'album/<code:\w+>' => 'album/view',
+                'photo/<code:\w+>' => 'photo/view',
                 '<controller:\w+>/<id:\d+>' => '<controller>/view',
                 '<controller:\w+>/<action:\w+>/<id:\d+>' => '<controller>/<action>',
                 '<controller:\w+>/<action:\w+>' => '<controller>/<action>',

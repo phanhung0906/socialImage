@@ -22,4 +22,17 @@ class Controller extends CController
 	public $breadcrumbs=array();
 
     public $userId;
+
+    public $userName;
+
+    public function beforeAction()
+    {
+        if(!Yii::app()->user->isGuest){
+            $this->userId = Yii::app()->user->getState('id');
+            $user = User::model()->findByPk($this->userId);
+            $this->userName = $user->user_name;
+        }
+
+        return true;
+    }
 }

@@ -39,7 +39,7 @@
         <?php  if (!Yii::app()->user->isGuest): ?>
             <button type="button" class="btn btn-default navbar-btn"><?php echo Yii::t('app','Upload') ?></button>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="<?php echo $baseUrl ?>/album"><?php echo Yii::t('app','My page') ?></a></li>
+                <li><a href="<?php echo $baseUrl .'/user/'. $this->userName ?>"><?php echo Yii::t('app','My page') ?></a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" id='image-user-bar-a-tag'><img id='image-user-bar' src="<?php echo $baseUrl ?>/images/750x450.png" alt="Account"/></a>
                     <ul class="dropdown-menu" role="menu">

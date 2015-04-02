@@ -1,6 +1,5 @@
 
     <div class="div-edit-album">
-        <a class="btn btn-default edit-album">Edit</a>
         <h3 class='col-md-6'><?php echo $album->name ?>
             <div><small><?php echo nl2br($album->description) ?></small></div>
             <div><small>Updated about 3 months ago</small></div>
@@ -21,8 +20,8 @@
 
     <?php foreach($listPhoto as $photo): ?>
         <div class="item BoardCreateRep">
-            <a class="link-photo" href="">
-                <div class='show-image-album' style=" background: url(<?php echo Yii::app()->createUrl(Constant::PATH_UPLOAD.$photo->url) ?>) no-repeat center center;background-size: cover;">
+            <a class="link-photo" href="<?php echo Yii::app()->createUrl('photo/'.$photo->code); ?>">
+                <div class='show-image-album' style="background: url(<?php echo Yii::app()->createUrl(Constant::PATH_UPLOAD.$photo->url) ?>) no-repeat center center;background-size: cover;">
 
                 </div>
             </a>

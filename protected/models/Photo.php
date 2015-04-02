@@ -28,6 +28,18 @@ class Photo extends CActiveRecord{
         );
     }
 
+    public static function countPhoto($albumId)
+    {
+        return self::model()->count('album_id = :albumId', array('albumId' => $albumId));
+    }
+
+    public static function getImage($albumId)
+    {
+        $model = self::model()->findByAttributes(array('album_id' => $albumId, 'del_flg' => Constant::DEL_FALSE), array('order' => 'created DESC'));
+
+        return empty($model) ? false : $model->url;
+    }
+
     public function beforeValidate()
     {
         return parent::beforeValidate();

@@ -17,6 +17,13 @@ class Constant {
     const DEL_FALSE = 0;
 
     /**
+     * Ajax
+     */
+    const LIKE_EXIST = 1;
+    const LIKE_SAVE_SUCCESS = 2;
+    const LIKE_SAVE_FALSE = 3;
+
+    /**
      * Constant of send mail
      */
     const HOST = 'smtp.gmail.com';

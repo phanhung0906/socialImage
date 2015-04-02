@@ -14,8 +14,12 @@ class UserController extends Controller
         return true;
     }*/
 
+    /**
+     * socialImage.lcoal/user/{username}
+     */
     public function actionView($username) {
         $model = User::model()->findByAttributes(array('user_name' => $username, 'del_flg' => Constant::DEL_FALSE));
+
         if(!$model) $this->redirect(Yii::app()->homeUrl);
 
         $userId = Yii::app()->user->getState('id');
@@ -23,7 +27,7 @@ class UserController extends Controller
 
         //Show album
         $ownAlbum = Album::model()->findAllByAttributes(array('user_id' => $userPageId, 'del_flg' => Constant::DEL_FALSE));
-
+        
         //create new album
         $album = new Album();
 

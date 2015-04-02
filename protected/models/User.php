@@ -142,7 +142,7 @@ class User extends CActiveRecord
             $count = self::model()->count($condition, $params);
 
             if ($count) {
-                $this->addError($attribute, Yii::t('app', '{user_name} already exists in the system.', array('{email}' => $this->$attribute)));
+                $this->addError($attribute, Yii::t('app', '{user_name} already exists in the system.', array('{user_name}' => $this->$attribute)));
             }
         }
     }

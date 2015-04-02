@@ -21,12 +21,19 @@
     <?php foreach($ownAlbum as $al): ?>
         <div class="item BoardCreateRep">
             <a class="link-photo" href="<?php echo Yii::app()->createUrl('album/'.$al->code) ?>">
-            <div class='show-image-album' style=" background: url(<?php echo Yii::app()->createUrl('images/750x450.png') ?>) no-repeat center center; background-size: cover;">
+            <div class='show-image-album' style=" background: url(
+            <?php
+                if(Photo::getImage($al->id))
+                    echo Yii::app()->createUrl(Constant::PATH_UPLOAD . Photo::getImage($al->id));
+                else
+                    echo Yii::app()->createUrl('images/750x450.png');
+            ?>
+                ) no-repeat center center; background-size: cover;">
 
             </div>
             </a>
             <div class='text-primary'><?php echo htmlspecialchars($al->name) ?></div>
-            <div class='div-edit-album'><span>25 photos</span></div>
+            <div class='div-edit-album'><span><?php echo Photo::countPhoto($al->id) ?> photos</span></div>
         </div>
     <?php endforeach; ?>
     <div class="clearfix"></div>

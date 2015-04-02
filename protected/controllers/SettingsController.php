@@ -9,7 +9,7 @@ class SettingsController extends Controller{
         } else {
             $this->userId = Yii::app()->user->getState('id');
         }
-
+        parent::beforeAction();
         return true;
     }
 

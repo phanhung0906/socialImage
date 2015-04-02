@@ -53,9 +53,6 @@ footer,.navbar-default{
 a:hover{
     text-decoration: none;
 }
-.like-div{
-    padding: 10px;
-}
 .list-group-item.actived, .list-group-item.actived:focus, .list-group-item.actived:hover {
     color: #777;
     background-color: #eee;
@@ -198,4 +195,16 @@ a:hover{
     opacity: 0;
     font-size: 200px;
     cursor: pointer;
+}
+.div-photo-detail{
+   background-color: #CCCCCC;
+}
+.detail-photo{
+    margin: auto;
+}
+.like-div{
+    padding: 10px;
+}
+.like-div a{
+    color: #696A6A;
 }

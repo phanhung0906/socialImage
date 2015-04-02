@@ -7,6 +7,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta name="language" content="en">
 
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo $baseUrl ?>/libs/css/images/red.png" />
     <!-- bootstrap 3.0.3 -->
     <link href="<?php echo $baseUrl ?>/libs/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="<?php echo $baseUrl ?>/libs/css/bootstrap-switch.min.css" rel="stylesheet" type="text/css" />

@@ -13,6 +13,9 @@ class AlbumController extends Controller{
         return true;
     }*/
 
+    /*
+     * Show Album follow code
+     */
     public function actionView($code, $update = false)
     {
         $album = Album::model()->findByAttributes(array('code' => $code, 'del_flg' => Constant::DEL_FALSE));
