@@ -3622,3 +3622,203 @@ REQUEST_URI=/user/hung2
 in D:\projects\socialImage\protected\models\Photo.php (39)
 in D:\projects\socialImage\protected\views\user\view.php (25)
 in D:\projects\socialImage\protected\controllers\UserController.php (52)
+2015/04/03 04:38:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "image1.jpg".' in D:\projects\socialImage\yii-core\web\CController.php:483
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CController.php(270): CController->missingAction('image1.jpg')
+#1 D:\projects\socialImage\yii-core\web\CWebApplication.php(282): CController->run('image1.jpg')
+#2 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('photo/image1.jp...')
+#3 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\projects\socialImage\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/photo/image1.jpg
+HTTP_REFERER=http://socialimage.local/photo/551a6399a48a7
+---
+2015/04/03 04:38:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/04/03 04:38:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/04/03 04:51:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "libs/css/images/overlay.png".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('libs/css/images...')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/css/images/overlay.png
+HTTP_REFERER=http://socialimage.local/libs/css/colorbox.css
+---
+2015/04/03 04:51:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "libs/css/images/overlay.png".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('libs/css/images...')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/css/images/overlay.png
+HTTP_REFERER=http://socialimage.local/libs/css/colorbox.css
+---
+2015/04/03 04:52:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "libs/css/images/border.png".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('libs/css/images...')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/css/images/border.png
+HTTP_REFERER=http://socialimage.local/libs/css/colorbox.css
+---
+2015/04/03 04:52:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "libs/css/images/loading_background.png".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('libs/css/images...')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/css/images/loading_background.png
+HTTP_REFERER=http://socialimage.local/libs/css/colorbox.css
+---
+2015/04/03 04:52:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "libs/css/images/loading.gif".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('libs/css/images...')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/css/images/loading.gif
+HTTP_REFERER=http://socialimage.local/libs/css/colorbox.css
+---
+2015/04/03 04:52:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "libs/css/images/overlay.png".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('libs/css/images...')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/css/images/overlay.png
+HTTP_REFERER=http://socialimage.local/libs/css/colorbox.css
+---
+2015/04/03 04:52:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "libs/css/images/loading_background.png".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('libs/css/images...')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/css/images/loading_background.png
+HTTP_REFERER=http://socialimage.local/libs/css/colorbox.css
+---
+2015/04/03 04:52:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "libs/css/images/border.png".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('libs/css/images...')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/css/images/border.png
+HTTP_REFERER=http://socialimage.local/libs/css/colorbox.css
+---
+2015/04/03 04:52:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "libs/css/images/loading.gif".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('libs/css/images...')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/css/images/loading.gif
+HTTP_REFERER=http://socialimage.local/libs/css/colorbox.css
+---
+2015/04/03 04:52:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "libs/css/images/overlay.png".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('libs/css/images...')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/css/images/overlay.png
+HTTP_REFERER=http://socialimage.local/libs/css/colorbox.css
+---
+2015/04/03 04:52:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "libs/css/images/border.png".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('libs/css/images...')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/css/images/border.png
+HTTP_REFERER=http://socialimage.local/libs/css/colorbox.css
+---
+2015/04/03 04:52:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "libs/css/images/loading.gif".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('libs/css/images...')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/css/images/loading.gif
+HTTP_REFERER=http://socialimage.local/libs/css/colorbox.css
+---
+2015/04/03 04:52:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "libs/css/images/loading_background.png".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('libs/css/images...')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/css/images/loading_background.png
+HTTP_REFERER=http://socialimage.local/libs/css/colorbox.css
+---
+2015/04/03 05:03:31 [warning] [application] Failed to set unsafe attribute "description" of "Album".
+in D:\projects\socialImage\protected\controllers\UserController.php (35)
+in D:\projects\socialImage\index.php (13)
+2015/04/03 05:48:35 [warning] [application] Failed to set unsafe attribute "rememberme" of "LoginForm".
+in D:\projects\socialImage\protected\controllers\SiteController.php (119)
+in D:\projects\socialImage\index.php (13)
+2015/04/03 06:54:51 [error] [exception.CException] exception 'CException' with message 'Property "PhotoController.fullUrl" is not defined.' in D:\projects\socialImage\yii-core\base\CComponent.php:173
+Stack trace:
+#0 D:\projects\socialImage\protected\components\Controller.php(36): CComponent->__set('fullUrl', 'http://socialim...')
+#1 D:\projects\socialImage\yii-core\web\CController.php(306): Controller->beforeAction(Object(CInlineAction))
+#2 D:\projects\socialImage\yii-core\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 D:\projects\socialImage\yii-core\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 D:\projects\socialImage\yii-core\web\CWebApplication.php(282): CController->run('view')
+#5 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('photo/view')
+#6 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#7 D:\projects\socialImage\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/photo/551e0e61335cf
+HTTP_REFERER=http://socialimage.local/album/55123cefc00ce
+---
+2015/04/03 06:54:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/04/03 06:54:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\projects\socialImage\yii-core\web\CWebApplication.php:286
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\projects\socialImage\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/04/03 06:55:28 [error] [php] Undefined variable: fullCurrentUrl (D:\projects\socialImage\protected\views\photo\partial\socialButton.php:4)
+Stack trace:
+#0 D:\projects\socialImage\yii-core\web\CBaseController.php(95): PhotoController->renderInternal()
+#1 D:\projects\socialImage\yii-core\web\CController.php(869): PhotoController->renderFile()
+#2 D:\projects\socialImage\yii-core\web\CController.php(782): PhotoController->renderPartial()
+#3 D:\projects\socialImage\protected\controllers\PhotoController.php(86): PhotoController->render()
+#4 unknown(0): PhotoController->actionView()
+#5 D:\projects\socialImage\yii-core\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#6 D:\projects\socialImage\yii-core\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#7 D:\projects\socialImage\yii-core\web\CController.php(308): CInlineAction->runWithParams()
+#8 D:\projects\socialImage\yii-core\web\CController.php(286): PhotoController->runAction()
+#9 D:\projects\socialImage\yii-core\web\CController.php(265): PhotoController->runActionWithFilters()
+#10 D:\projects\socialImage\yii-core\web\CWebApplication.php(282): PhotoController->run()
+#11 D:\projects\socialImage\yii-core\web\CWebApplication.php(141): CWebApplication->runController()
+#12 D:\projects\socialImage\yii-core\base\CApplication.php(184): CWebApplication->processRequest()
+#13 D:\projects\socialImage\index.php(13): CWebApplication->run()
+REQUEST_URI=/photo/551e0e61335cf
+in D:\projects\socialImage\protected\views\photo\partial\socialButton.php (4)
+in D:\projects\socialImage\protected\views\photo\view.php (4)
+in D:\projects\socialImage\protected\controllers\PhotoController.php (86)

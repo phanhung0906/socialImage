@@ -1,6 +1,4 @@
-<style type="text/css">
 
-</style>
 <div class="container white-page padding-content">
     <?php echo CHtml::link('Album',array(Yii::app()->createUrl('user/'.$userPageInfo->user_name)), array('class'=>'btn btn-primary')) ?>
     <?php if($step == 1): ?>

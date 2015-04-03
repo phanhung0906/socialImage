@@ -1,11 +1,17 @@
 
 <div class="container">
+
     <div class='row'>
         <div class='col-md-8'>
             <h3><?php echo $photo->name ?></h3>
-            <p class='text-info'>By <a href="<?php echo Yii::app()->createUrl('/user/'.$user->user_name) ?>"><?php echo $user->user_name ?></a></p>
-            <div class='div-photo-detail'>
-            <img src="<?php echo Yii::app()->createUrl(Constant::PATH_UPLOAD.$photo->url) ?>" alt="detail" class='detail-photo img-responsive'/>
+            <p class='text-info'>By <a href="<?php echo Yii::app()->createUrl('/user/'.$user->user_name) ?>"><?php echo $user->user_name ?></a> - <a href="<?php echo Yii::app()->createUrl('read/delete/id/'.$photo->id) ?>" onclick="return confirm('Are you sure?')">DELETE</a></p>
+            <!-- Buttons start here. Copy this ul to your document. -->
+            <?php require_once('partial/socialButton.php'); ?>
+            <!-- Buttons end here -->
+            <div class='div-photo-detail' id="colorboxPhoto">
+                <a href="<?php echo Yii::app()->createUrl(Constant::PATH_UPLOAD.$photo->url) ?>">
+                    <img src="<?php echo Yii::app()->createUrl(Constant::PATH_UPLOAD.$photo->url) ?>" alt="detail" class='detail-photo img-responsive'/>
+                </a>
             </div>
             <?php if(Yii::app()->user->isGuest): ?>
                 <div class='like-div'>
@@ -99,6 +105,14 @@
                     }
                 });
         })
+
+        $('#colorboxPhoto').find('a').colorbox({
+            maxWidth : '100%',
+            maxHeight : '100%',
+            opacity : 0.8,
+            transition : 'elastic',
+            current : ''
+        });
 
     })
 </script>

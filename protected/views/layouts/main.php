@@ -20,6 +20,12 @@
     <link rel="stylesheet" href="<?php echo $baseUrl ?>/libs/css/animate.css">
     <!-- sweet alert -->
     <link href="<?php echo $baseUrl ?>/libs/css/sweet-alert.css" rel="stylesheet" type="text/css" />
+    <!-- justifiedGallery -->
+    <link href="<?php echo $baseUrl ?>/libs/css/justifiedGallery.min.css" rel="stylesheet" type="text/css" />
+    <!-- colorbox -->
+    <link href="<?php echo $baseUrl ?>/libs/css/colorbox/colorbox.css" rel="stylesheet" type="text/css" />
+    <!-- rrssb -->
+    <link href="<?php echo $baseUrl ?>/libs/css/rrssb.css" rel="stylesheet" type="text/css" />
     <!-- style -->
     <link href="<?php echo $baseUrl ?>/libs/css/style-main.css" rel="stylesheet" type="text/css" />
     <!-- jQuery -->
@@ -71,8 +77,14 @@
 <script src="<?php echo $baseUrl ?>/libs/js/wow.min.js"></script>
 <!-- bxslider -->
 <script src="<?php echo $baseUrl ?>/libs/js/jquery.bxslider.min.js"></script>
-<!-- Bootstrap 3.0.3 -->
+<!-- sweet alert -->
 <script src="<?php echo $baseUrl ?>/libs/js/sweet-alert.min.js"></script>
+<!-- justifiedGallery -->
+<script src="<?php echo $baseUrl ?>/libs/js/jquery.justifiedGallery.min.js"></script>
+<!-- justifiedGallery -->
+<script src="<?php echo $baseUrl ?>/libs/js/jquery.colorbox-min.js"></script>
+<!-- rrssb -->
+<script src="<?php echo $baseUrl ?>/libs/js/rrssb.min.js"></script>
 <script>
     new WOW().init();
 </script>

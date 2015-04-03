@@ -37,7 +37,7 @@
             </div>
         </form>
         <?php  if (!Yii::app()->user->isGuest): ?>
-            <button type="button" class="btn btn-default navbar-btn"><?php echo Yii::t('app','Upload') ?></button>
+            <!--<button type="button" class="btn btn-default navbar-btn"><?php /*echo Yii::t('app','Upload') */?></button>-->
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="<?php echo $baseUrl .'/user/'. $this->userName ?>"><?php echo Yii::t('app','My page') ?></a></li>
                 <li class="dropdown">
