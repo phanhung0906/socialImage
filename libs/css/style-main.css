@@ -208,3 +208,14 @@ a:hover{
 .like-div a{
     color: #696A6A;
 }
+/* button social */
+.rrssb-buttons{
+    margin-bottom: 5px;
+}
+.rrssb-buttons li{
+    padding: 0;
+    padding-right: 2.5px;
+}
+.rrssb-buttons li:last-child {
+    padding: 0;
+}
