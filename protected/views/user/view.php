@@ -4,7 +4,11 @@
 
 <div class="white-page">
     <div class='text-center padding-content'>
-        <img src="<?php echo Yii::app()->createUrl('images/750x450.png') ?>" alt="..." class="img-circle img-profile">
+        <?php if($userPageDetail->image): ?>
+            <img src="<?php echo Yii::app()->createUrl(Constant::PATH_UPLOAD . $userPageDetail->image) ?>" alt="Account" class="img-circle img-profile"/>
+        <?php else: ?>
+            <img src="<?php echo Yii::app()->createUrl(Constant::PATH_NO_IMAGE) ?>" alt="Account" class="img-circle img-profile"/>
+        <?php endif; ?>
         <h3><?php echo $model->user_name ?></h3>
     </div>
 </div>

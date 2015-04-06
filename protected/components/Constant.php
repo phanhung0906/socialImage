@@ -11,6 +11,7 @@ class Constant {
 
     const PER_PAGE = 100;
     const PATH_UPLOAD = '/images/uploads/';
+    const PATH_NO_IMAGE = '/images/750x450.png/';
 //    const STATUS_ACTIVE = 1;
 //    const STATUS_INACTIVE = 0;
     const DEL_TRUE = 1;

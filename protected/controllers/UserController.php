@@ -24,6 +24,7 @@ class UserController extends Controller
 
         $userId = Yii::app()->user->getState('id');
         $userPageId = $model->id;
+        $userPageDetail = UserDetail::model()->findByAttributes(array('user_id' => $userPageId));
 
         //Show album
         $ownAlbum = Album::model()->findAllByAttributes(array('user_id' => $userPageId, 'del_flg' => Constant::DEL_FALSE));
@@ -48,7 +49,8 @@ class UserController extends Controller
             'ownAlbum' => $ownAlbum,
             'userPageId' => $userPageId,
             'userId' => $userId,
-            'model' => $model
+            'model' => $model,
+            'userPageDetail' => $userPageDetail
         ));
     }
 

@@ -8,6 +8,8 @@ class UserDetail extends CActiveRecord{
     public $birthday;
     public $status;
     public $image;
+    public $description;
+    public $website;
 
     public function tableName()
     {
@@ -23,10 +25,9 @@ class UserDetail extends CActiveRecord{
     {
         return array(
             array('user_id','required'),
-
-            array('phone', 'length','min'=>10, 'max'=>20, 'on'=>'updateUserInfomation'),
-            array('phone', 'match', 'pattern'=>'/^[0-9-()\s+]+$/', 'on'=>'updateUserInfomation'),
-            array('email, phone, first_name, last_name, gender, birthday, status', 'safe', 'on'=>'search'),
+            array('description, website, gender','safe'),
+            array('phone', 'length','min'=>10, 'max'=>20, 'on'=>'updateUser'),
+            array('phone', 'match', 'pattern'=>'/^[0-9-()\s+]+$/', 'on'=>'updateUser'),
         );
     }
 

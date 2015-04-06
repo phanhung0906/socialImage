@@ -6,10 +6,10 @@
     <div class="col-md-9">
         <?php
             $form = $this->beginWidget('CActiveForm', array(
-                'id' => 'user_register',
                 'clientOptions' => array(
                     'validateOnSubmit' => true,
                 ),
+                'htmlOptions'=>array('enctype'=>'multipart/form-data'),
             ));
         ?>
         <div class="panel panel-default">
@@ -21,44 +21,40 @@
                     <div class="form-group">
                         <label for="inputPassword3" class="col-sm-2 control-label">Image</label>
                         <div class="col-sm-10">
-                            <img src="<?php echo $baseUrl ?>/images/750x450.png" alt="profile" class='profile-image'/>
-                            <button class='btn btn-default'>Change image</button>
+                            <?php if($userDetail->image): ?>
+                                <img src="<?php echo Yii::app()->createUrl(Constant::PATH_UPLOAD . $userDetail->image)?>" alt="profile" class='profile-image' id="blah"/>
+                            <?php else: ?>
+                            <img src="<?php echo $baseUrl ?>/images/750x450.png" alt="profile" class='profile-image' id="blah"/>
+                            <?php endif; ?>
+                            <button class='btn btn-default fileinput-button input'>
+                                <?php echo CHtml::activeFileField($userDetail, 'image', array('id' => 'inputFile')) ?>
+                                Change image
+                            </button>
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="inputPassword3" class="col-sm-2 control-label">Description</label>
+                        <?php echo CHtml::activeLabelEx($userDetail, 'description', array('class' => 'col-sm-2 control-label')); ?>
                         <div class="col-sm-10">
-                            <textarea class="form-control" rows="3"></textarea>
+                            <?php
+                                echo CHtml::activeTextArea($userDetail, 'description', array('class' => 'form-control', 'placeholder' => 'Description' ));
+                                echo $form->error($userDetail, 'description');
+                            ?>
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="inputEmail3" class="col-sm-2 control-label">Position</label>
+                        <?php echo CHtml::activeLabelEx($userDetail, 'website', array('class' => 'col-sm-2 control-label')); ?>
                         <div class="col-sm-10">
-                            <input class="form-control" placeholder="Position">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="inputEmail3" class="col-sm-2 control-label">Website</label>
-                        <div class="col-sm-10">
-                            <input class="form-control" placeholder="Website">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="inputPassword3" class="col-sm-2 control-label">Country</label>
-                        <div class="col-sm-10">
-                            <select class="form-control">
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                            </select>
+                            <?php
+                                echo CHtml::activeTextField($userDetail, 'website', array('class' => 'form-control', 'placeholder' => 'Website' ));
+                                echo $form->error($userDetail, 'description');
+                            ?>
                         </div>
                     </div>
                     <div class="form-group">
                         <label for="inputEmail3" class="col-sm-2 control-label">Sex</label>
                         <div class="col-sm-10">
-                            <label class="radio-inline">
+                            <?php echo CHtml::activeRadioButtonList($userDetail,'gender',array('1'=>'Male','2'=>'Female')); ?>
+                            <!--<label class="radio-inline">
                                 <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Male
                             </label>
                             <label class="radio-inline">
@@ -66,7 +62,7 @@
                             </label>
                             <label class="radio-inline">
                                 <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> Empty
-                            </label>
+                            </label>-->
                         </div>
                     </div>
                     <div class="form-group">
@@ -100,6 +96,64 @@
                 </div>
             </div>
         </div>
+
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <div class="text-right">
+                    <button class="btn btn-primary" type="submit">Update</button>
+                    <?php
+                        echo CHtml::resetButton('Reset', array('class' => 'btn btn-danger'));
+                    ?>
+                </div>
+            </div>
+        </div>
         <?php $this->endWidget(); ?>
     </div>
 </div>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+
+        function readURL(input) {
+
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+
+                reader.onload = function (e) {
+                    $('#blah').attr('src', e.target.result);
+                }
+
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+
+
+        var _URL = window.URL;
+        $('#inputFile').change(function()
+        {
+            var self = this;
+            var ext = $(this).val().split('.').pop().toLowerCase();
+
+            if($.inArray(ext, ['gif','png','jpg','jpeg']) == -1) {
+                sweetAlert("Oops...", "Invalid extension!", "error");
+                return;
+            } else {
+                var file, img, height;
+                if ((file = this.files[0])) {
+                    img = new Image();
+                    img.onload = function () {
+                        //                    width = this.width;
+                        height = this.height;
+                        if(height < 170){
+                            sweetAlert("Oops...", "Something wrong with the image dimensions!", "error");
+                        } else {
+                            readURL(self);
+                        }
+                    };
+                    img.src = _URL.createObjectURL(file);
+                }
+            }
+        });
+    })
+
+</script>

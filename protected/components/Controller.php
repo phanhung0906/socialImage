@@ -25,6 +25,8 @@ class Controller extends CController
 
     public $userName;
 
+    public $userImage;
+
     public $fullCurrentUrl;
 
     public function beforeAction()
@@ -32,10 +34,12 @@ class Controller extends CController
         if(!Yii::app()->user->isGuest){
             $this->userId = Yii::app()->user->getState('id');
             $user = User::model()->findByPk($this->userId);
+            $userDetail = UserDetail::model()->findByAttributes(array('user_id' => $this->userId));
             $this->userName = $user->user_name;
-            $this->fullCurrentUrl = Yii::app()->getBaseUrl(true).Yii::app()->request->requestUri;
+            $this->userImage = $userDetail->image;
         }
 
+        $this->fullCurrentUrl = Yii::app()->getBaseUrl(true).Yii::app()->request->requestUri;
         return true;
     }
 }

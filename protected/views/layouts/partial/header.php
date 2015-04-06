@@ -41,7 +41,13 @@
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="<?php echo $baseUrl .'/user/'. $this->userName ?>"><?php echo Yii::t('app','My page') ?></a></li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" id='image-user-bar-a-tag'><img id='image-user-bar' src="<?php echo $baseUrl ?>/images/750x450.png" alt="Account"/></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" id='image-user-bar-a-tag'>
+                        <?php if($this->userImage): ?>
+                            <img id='image-user-bar' src="<?php echo Yii::app()->createUrl(Constant::PATH_UPLOAD . $this->userImage) ?>" alt="Account"/>
+                        <?php else: ?>
+                            <img id='image-user-bar' src="<?php echo Yii::app()->createUrl(Constant::PATH_NO_IMAGE) ?>" alt="Account"/>
+                        <?php endif; ?>
+                    </a>
                     <ul class="dropdown-menu" role="menu">
                         <li><a href="<?php echo $baseUrl ?>/settings"><?php echo Yii::t('app','Settings') ?></a></li>
                         <li class="divider"></li>

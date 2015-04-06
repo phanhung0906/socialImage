@@ -64,47 +64,49 @@
         $('#guest-like-button').popover();
         $('#guest-dislike-button').popover();
 
-        $('#like-button').click(function () {
-            var self = $(this);
-            $.ajax({
-                method: "POST",
-                url: window.location.pathname,
-                data: { userLikeId: <?php echo $userId ?> }
-            }).done(function (response) {
-                    if (response == <?php echo Constant::LIKE_SAVE_SUCCESS ?>) {
-                        self.find('i').addClass('text-info');
-                        var countLike = parseInt($('#count-like-photo').html());
-                        $('#count-like-photo').html(++countLike);
-                    } else if (response == <?php echo Constant::LIKE_EXIST ?>) {
-                        self.find('i').removeClass('text-info');
-                        var countLike = parseInt($('#count-like-photo').html());
-                        $('#count-like-photo').html(--countLike);
-                    } else {
-                        sweetAlert("Oops...", "Sorry! System have error", "error");
-                    }
-                });
-        })
+        <?php if($userId): ?>
+            $('#like-button').click(function () {
+                var self = $(this);
+                $.ajax({
+                    method: "POST",
+                    url: window.location.pathname,
+                    data: { userLikeId: <?php echo $userId ?> }
+                }).done(function (response) {
+                        if (response == <?php echo Constant::LIKE_SAVE_SUCCESS ?>) {
+                            self.find('i').addClass('text-info');
+                            var countLike = parseInt($('#count-like-photo').html());
+                            $('#count-like-photo').html(++countLike);
+                        } else if (response == <?php echo Constant::LIKE_EXIST ?>) {
+                            self.find('i').removeClass('text-info');
+                            var countLike = parseInt($('#count-like-photo').html());
+                            $('#count-like-photo').html(--countLike);
+                        } else {
+                            sweetAlert("Oops...", "Sorry! System have error", "error");
+                        }
+                    });
+            })
 
-        $('#dislike-button').click(function () {
-            var self = $(this);
-            $.ajax({
-                method: "POST",
-                url: window.location.pathname,
-                data: { userDislikeId: <?php echo $userId ?> }
-            }).done(function (response) {
-                    if (response == <?php echo Constant::LIKE_SAVE_SUCCESS ?>) {
-                        self.find('i').addClass('text-info');
-                        var countLike = parseInt($('#count-dislike-photo').html());
-                        $('#count-dislike-photo').html(++countLike);
-                    } else if (response == <?php echo Constant::LIKE_EXIST ?>) {
-                        self.find('i').removeClass('text-info');
-                        var countLike = parseInt($('#count-dislike-photo').html());
-                        $('#count-dislike-photo').html(--countLike);
-                    } else {
-                        sweetAlert("Oops...", "Sorry! System have error", "error");
-                    }
-                });
-        })
+            $('#dislike-button').click(function () {
+                var self = $(this);
+                $.ajax({
+                    method: "POST",
+                    url: window.location.pathname,
+                    data: { userDislikeId: <?php echo $userId ?> }
+                }).done(function (response) {
+                        if (response == <?php echo Constant::LIKE_SAVE_SUCCESS ?>) {
+                            self.find('i').addClass('text-info');
+                            var countLike = parseInt($('#count-dislike-photo').html());
+                            $('#count-dislike-photo').html(++countLike);
+                        } else if (response == <?php echo Constant::LIKE_EXIST ?>) {
+                            self.find('i').removeClass('text-info');
+                            var countLike = parseInt($('#count-dislike-photo').html());
+                            $('#count-dislike-photo').html(--countLike);
+                        } else {
+                            sweetAlert("Oops...", "Sorry! System have error", "error");
+                        }
+                    });
+            })
+        <?php endif; ?>
 
         $('#colorboxPhoto').find('a').colorbox({
             maxWidth : '100%',
