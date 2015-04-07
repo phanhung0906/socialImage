@@ -68,31 +68,17 @@ class SettingsController extends Controller
         if (isset($_POST['UserDetail'])) {
             $oldLink = $userDetail->image;
             $uploadedFile = CUploadedFile::getInstance($userDetail, 'image');
-            if ($uploadedFile) {
-                $pathFolder = YiiBase::getPathOfAlias('webroot') . Constant::PATH_UPLOAD . date("Y") . '/' . date("m-d");
-
-                if (!file_exists($pathFolder)) {
-                    mkdir($pathFolder, 0777, true);
-                }
-
-                $code = uniqid();
-                $fileName = $code . '-' . $uploadedFile->name;
-
-                $_POST['UserDetail']['image'] = $userDetail->image = date("Y") . '/' . date("m-d") . '/' . $fileName;
-            }
 
             $userDetail->attributes = $_POST['UserDetail'];
+            $userDetail->oldLink = $oldLink;
+            $userDetail->uploadedFile = $uploadedFile;
+            $userDetail->image = $oldLink;
 
             if ($userDetail->save()) {
-                if ($uploadedFile) {
-                    if (file_exists(YiiBase::getPathOfAlias('webroot') . Constant::PATH_UPLOAD . $oldLink))
-                        unlink(YiiBase::getPathOfAlias('webroot') . Constant::PATH_UPLOAD . $oldLink);
-                    $uploadedFile->saveAs($pathFolder . '/' . $fileName);
-                }
                 Yii::app()->user->setFlash('success', Yii::t('app', 'Update info successfully'));
                 $this->refresh();
             } else {
-                Common::debugdie($userDetail->getErrors());
+                /*Common::debugdie($userDetail->getErrors());*/
             }
         }
 

@@ -46,7 +46,7 @@
                         <div class="col-sm-10">
                             <?php
                                 echo CHtml::activeTextField($userDetail, 'website', array('class' => 'form-control', 'placeholder' => 'Website' ));
-                                echo $form->error($userDetail, 'description');
+                                echo $form->error($userDetail, 'website');
                             ?>
                         </div>
                     </div>
