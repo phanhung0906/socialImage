@@ -106,7 +106,7 @@ class Common
     /**
      * Check current controler/action
      */
-    public static function checkActive($controller,$action) {
+    public static function checkActive($controller, $action, $echo = 'actived') {
         static $currentControler;
         static $currentAction;
 
@@ -117,7 +117,7 @@ class Common
             $currentAction = Yii::app()->controller->action->id;
 
         if (in_array($currentControler, (array)$controller) && in_array($currentAction, (array)$action)) {
-            return 'actived';
+            return $echo;
         }
         
         return ''; 

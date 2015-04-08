@@ -25,7 +25,7 @@ class AlbumController extends Controller{
         $userId = Yii::app()->user->getState('id');
         $userPageId = $album->user_id;
         $userPageInfo = User::model()->findByPk($userPageId);
-        $listPhoto = Photo::model()->findAllByAttributes(array('album_id' => $album->id, 'del_flg' => Constant::DEL_FALSE), array('order' => 'created DESC'));
+        $listPhoto = Photo::model()->findAllByAttributes(array('album_id' => $album->id, 'del_flg' => Constant::DEL_FALSE), array('order' => 'created DESC', 'limit' => Constant::PHOTO_PER_PAGE));
         $step = 1;
 
         if($update){
@@ -56,6 +56,22 @@ class AlbumController extends Controller{
             } else {
                 Common::debugdie($photo->getErrors());
             }
+        }
+
+        // Ajax like button
+        if (isset($_POST['number']) && Yii::app()->request->isAjaxRequest) {
+             echo json_encode(Photo::model()->findAllByAttributes(
+                array(
+                    'album_id' => $album->id,
+                    'del_flg' => Constant::DEL_FALSE
+                ),
+                array(
+                    'order' => 'created DESC',
+                    'limit' => Constant::PHOTO_PER_PAGE,
+                    'offset' => $_POST['number'] * Constant::PHOTO_PER_PAGE
+                )
+            ));
+            Yii::app()->end();
         }
 
         $this->render('view', array(

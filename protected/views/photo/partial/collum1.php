@@ -44,6 +44,6 @@
         </div>
     </div>
 <?php endif; ?>
-<div class="white-page">
-    <?php /*require_once('fb-comments.php') */?>
-</div>
+<!--<div class="white-page">-->
+    <?php require_once('fb-comments.php')?>
+<!--</div>-->

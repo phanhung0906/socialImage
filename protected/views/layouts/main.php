@@ -63,10 +63,7 @@
 </div>
 
 <footer>
-    <div class='container'>
-        <p class="pull-right"><small>Page generated on Sun, 15 Mar 2015 22:10:53 +0000</small></p>
-        Powered by <a href="#" rel="external">socialImage</a>
-    </div>
+    <?php require_once('partial/footer.php'); ?>
 </footer>
 
 <!-- Bootstrap 3.0.3 -->

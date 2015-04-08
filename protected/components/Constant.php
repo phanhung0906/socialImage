@@ -9,7 +9,8 @@
 class Constant {
     const ADMIN_EMAIL = 'admin@socialimage.com';
 
-    const PER_PAGE = 100;
+    /* show number of photo in /album/{code} */
+    const PHOTO_PER_PAGE = 20;
     const PATH_UPLOAD = '/images/uploads/';
     const PATH_NO_IMAGE = '/images/750x450.png/';
 //    const STATUS_ACTIVE = 1;

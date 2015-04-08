@@ -34,9 +34,13 @@ class PhotoController extends Controller{
         $checkDislikeModel = DislikePhoto::model()->findByAttributes(array('user_id' => $userId, 'photo_id' => $photo->id));
         $checkDislike = empty($checkDislikeModel) ? false : true;
 
+        //Collum 2
+        $feature = Photo::model()->findAllByAttributes(array('del_flg' => Constant::DEL_FALSE),  array('order' => 'created DESC', 'limit' => Constant::PHOTO_PER_PAGE));
+
         // Ajax like button
         if (isset($_POST['userLikeId']) && Yii::app()->request->isAjaxRequest) {
             $mdoel = LikePhoto::model()->findByAttributes(array('user_id' => $_POST['userLikeId'], 'photo_id' => $photo->id));
+
             if($mdoel){
                 LikePhoto::model()->deleteByPk($mdoel->id);
                 echo Constant::LIKE_EXIST;
@@ -81,7 +85,8 @@ class PhotoController extends Controller{
             'countDislike' => $countDislike,
             'userId' => $userId,
             'checkLike' => $checkLike,
-            'checkDislike' => $checkDislike
+            'checkDislike' => $checkDislike,
+            'feature' => $feature
 //            'isOwn' => $isOwn
         ));
     }

@@ -1,12 +1,12 @@
 
-    <div class="div-edit-album">
-        <h3 class='col-md-6'><?php echo $album->name ?>
-            <div><small><?php echo nl2br($album->description) ?></small></div>
-            <div><small>Updated about 3 months ago</small></div>
-        </h3>
-    </div>
-    <div class="clearfix"></div>
-    <?php if($userId == $userPageId): ?>
+<div class="div-edit-album">
+    <h3 class='col-md-6'><?php echo $album->name ?>
+        <div><small><?php echo nl2br($album->description) ?></small></div>
+        <div><small>Updated about 3 months ago</small></div>
+    </h3>
+</div>
+<div class="clearfix"></div>
+<?php if($userId == $userPageId): ?>
     <div class="item">
         <form method='post' enctype="multipart/form-data">
             <a class="BoardCreateRep add-new-album fileinput-button">
@@ -16,29 +16,16 @@
             </a>
         </form>
     </div>
-    <?php endif; ?>
+<?php endif; ?>
 
-   <!-- <?php /*foreach($listPhoto as $photo): */?>
-        <div class="item BoardCreateRep">
-            <a class="link-photo" href="<?php /*echo Yii::app()->createUrl('photo/'.$photo->code); */?>">
-                <div class='show-image-album' style="background: url(<?php /*echo Yii::app()->createUrl(Constant::PATH_UPLOAD.$photo->url) */?>) no-repeat center center;background-size: cover;">
-
-                </div>
-            </a>
-            <div class='text-primary'></div>
-        </div>
-    --><?php /*endforeach; */?>
-
-    <div id="basicExample">
-    <?php foreach($listPhoto as $photo): ?>
-
-        <a href="<?php echo Yii::app()->createUrl('photo/'.$photo->code); ?>">
-            <img alt="<?php echo $photo->name ?>" src="<?php echo Yii::app()->createUrl(Constant::PATH_UPLOAD.$photo->url) ?>" />
-            <div class="caption">like 1 <p>comment 20</p></div>
-        </a>
-
-    <?php endforeach; ?>
-    </div>
+<div id="basicExample">
+<?php foreach($listPhoto as $photo): ?>
+    <a href="<?php echo Yii::app()->createUrl('photo/'.$photo->code); ?>">
+        <img alt="<?php echo $photo->name ?>" src="<?php echo Yii::app()->createUrl(Constant::PATH_UPLOAD.$photo->url) ?>" />
+        <div class="caption"><?php echo $photo->name ?></p></div>
+    </a>
+<?php endforeach; ?>
+</div>
 
 <script type="text/javascript">
     $(document).ready(function(){
@@ -47,24 +34,39 @@
             lastRow : 'nojustify',
             margins : 3
         });
+
+        var number = 1;
         $(window).scroll(function() {
             if($(window).scrollTop() + $(window).height() == $(document).height()) {
-               /* for (var i = 0; i < 5; i++) {
-                    $('#basicExample').append('<a>' +
-                        '<img src="/images/750x450.png" />' +
-                        '</a>');
-                }
-                $('#basicExample').justifiedGallery('norewind');*/
+                $.ajax({
+                    dataType: 'json',
+                    method: "POST",
+                    url: window.location.pathname,
+                    data: { number: number++ }
+                }).done(function (response) {
+                    var numberOfPhoto = response.length;
+                        if(numberOfPhoto > 0){
+                            for (var i = 0; i < numberOfPhoto; i++) {
+                                $('#basicExample').append('<a href="/photo/'+ response[i].code +'">' +
+                                    '<img alt="'+ response[i].name +'" src="/images/uploads/'+ response[i].url +'" />'+'</a>' );
+                            }
+                            $('#basicExample').justifiedGallery('norewind');
+                        }
+                });
             }
         });
 
         var _URL = window.URL;
         $('#inputFile').change(function()
         {
+            var size = this.files[0].size;
             var ext = $(this).val().split('.').pop().toLowerCase();
 
             if($.inArray(ext, ['gif','png','jpg','jpeg']) == -1) {
                 sweetAlert("Oops...", "Invalid extension!", "error");
+                return;
+            } else if(size > 3*1024*1024) {
+                sweetAlert("Oops...", "Max size: 3MB!", "error");
                 return;
             } else {
                 var file, img, height;

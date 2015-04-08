@@ -12,49 +12,15 @@
 </style>
 <h4><?php echo Yii::t('app', 'Featured') ?></h4>
 <div class='div-photo-featured'>
+    <?php foreach($feature as $v):?>
     <li>
-        <a href="#">
+        <a href="<?php echo Yii::app()->createUrl('photo/'.$v->code) ?>">
             <!--<img src="<?php /*echo Yii::app()->createUrl(Constant::PATH_UPLOAD.$photo->url) */?>" alt="detail" class='detail-photo img-responsive'/>-->
-            <div class="show-image-featured" style=" background: url('/images/750x450.png') no-repeat center center; background-size: cover;">
+            <div class="show-image-featured" style=" background: url('<?php echo Yii::app()->createUrl(Constant::PATH_UPLOAD.$v->url) ?>') no-repeat center center; background-size: cover;">
 
             </div>
         </a>
-        <div class="info-container"><h4><a href="#">They Reject Him For Looking Homeless, He Comes Back In A Ferrari To Teach Them A Lesson</a></h4></div>
+        <div class="info-container"><h4><a href="#"><?php echo $v->name ?></a></h4></div>
     </li>
-    <li>
-        <a href="#">
-            <!--<img src="<?php /*echo Yii::app()->createUrl(Constant::PATH_UPLOAD.$photo->url) */?>" alt="detail" class='detail-photo img-responsive'/>-->
-            <div class="show-image-featured" style=" background: url('/images/750x450.png') no-repeat center center; background-size: cover;">
-
-            </div>
-        </a>
-        <div class="info-container"><h4><a href="#">They Reject Him For Looking Homeless, He Comes Back In A Ferrari To Teach Them A Lesson</a></h4></div>
-    </li>
-    <li>
-        <a href="#">
-            <!--<img src="<?php /*echo Yii::app()->createUrl(Constant::PATH_UPLOAD.$photo->url) */?>" alt="detail" class='detail-photo img-responsive'/>-->
-            <div class="show-image-featured" style=" background: url('/images/750x450.png') no-repeat center center; background-size: cover;">
-
-            </div>
-        </a>
-        <div class="info-container"><h4><a href="#">They Reject Him For Looking Homeless, He Comes Back In A Ferrari To Teach Them A Lesson</a></h4></div>
-    </li>
-    <li>
-        <a href="#">
-            <!--<img src="<?php /*echo Yii::app()->createUrl(Constant::PATH_UPLOAD.$photo->url) */?>" alt="detail" class='detail-photo img-responsive'/>-->
-            <div class="show-image-featured" style=" background: url('/images/750x450.png') no-repeat center center; background-size: cover;">
-
-            </div>
-        </a>
-        <div class="info-container"><h4><a href="#">They Reject Him For Looking Homeless, He Comes Back In A Ferrari To Teach Them A Lesson</a></h4></div>
-    </li>
-    <li>
-        <a href="#">
-            <!--<img src="<?php /*echo Yii::app()->createUrl(Constant::PATH_UPLOAD.$photo->url) */?>" alt="detail" class='detail-photo img-responsive'/>-->
-            <div class="show-image-featured" style=" background: url('/images/750x450.png') no-repeat center center; background-size: cover;">
-
-            </div>
-        </a>
-        <div class="info-container"><h4><a href="#">They Reject Him For Looking Homeless, He Comes Back In A Ferrari To Teach Them A Lesson</a></h4></div>
-    </li>
+    <?php endforeach; ?>
 </div>
