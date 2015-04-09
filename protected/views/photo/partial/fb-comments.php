@@ -6,4 +6,4 @@
         js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&appId=1378134902472371&version=v2.3";
         fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
-<div class="fb-comments" data-href="https://google.com" data-numposts="5" data-colorscheme="light"></div>
+<div class="fb-comments" data-href="<?php echo Yii::app()->getBaseUrl(true) .'/photo/'.$photo->code ?>" data-numposts="15" data-colorscheme="light" data-width="100%"></div>
