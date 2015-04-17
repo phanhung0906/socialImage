@@ -48,7 +48,7 @@ footer,.navbar-default{
     border-left-color: #1b809e;
 }
 .fa-2{
-    font-size: 1.3em;
+    font-size: 1.4em;
 }
 a:hover{
     text-decoration: none;
@@ -229,4 +229,11 @@ a:hover{
 }
 .text-uppercase{
     text-transform: uppercase;
+}
+/*Ovewrite bootstrap*/
+.width-85 {
+    width: 85%;
+}
+.padding-20{
+    padding:20px;
 }
