@@ -27,6 +27,14 @@ class Album extends CActiveRecord{
         );
     }
 
+    public function relations()
+    {
+        return array(
+            'user' => array(self::BELONGS_TO, 'User', 'user_id'),
+            'photo' => array(self::HAS_MANY, 'Photo', 'album_id', 'order' => 'photo.created DESC'),
+        );
+    }
+
     public function beforeValidate()
     {
         return parent::beforeValidate();

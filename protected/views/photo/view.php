@@ -5,7 +5,7 @@
         <div class='col-md-8'>
             <?php require_once('partial/collum1.php') ?>
         </div>
-        <div class='col-md-4'>
+        <div class='col-md-4 padding-20'>
             <?php require_once('partial/collum2.php') ?>
         </div>
     </div>

@@ -28,7 +28,10 @@ class UserController extends Controller
 
         //Show album
         $ownAlbum = Album::model()->findAllByAttributes(array('user_id' => $userPageId, 'del_flg' => Constant::DEL_FALSE));
-        
+
+        //Show Timeline
+        $timeline = Photo::model()->with('album.user')->findAll();
+
         //create new album
         $album = new Album();
 
@@ -50,7 +53,8 @@ class UserController extends Controller
             'userPageId' => $userPageId,
             'userId' => $userId,
             'model' => $model,
-            'userPageDetail' => $userPageDetail
+            'userPageDetail' => $userPageDetail,
+            'timeline' => $timeline
         ));
     }
 

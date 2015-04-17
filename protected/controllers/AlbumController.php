@@ -28,12 +28,13 @@ class AlbumController extends Controller{
         $listPhoto = Photo::model()->findAllByAttributes(array('album_id' => $album->id, 'del_flg' => Constant::DEL_FALSE), array('order' => 'created DESC', 'limit' => Constant::PHOTO_PER_PAGE));
         $step = 1;
 
-        if($update){
+        if ($update) {
             $step = 2;
         }
 
         // Create new photo
-        if (isset($_POST) && !empty($_FILES['image']['tmp_name'])) {
+        $photoUpload = new Photo();
+        if (isset($_POST['Photo']) && !empty($_FILES['image']['tmp_name'])) {
             $pathFolder = YiiBase::getPathOfAlias('webroot') . Constant::PATH_UPLOAD . date("Y") . '/' . date("m-d");
 
             if (!file_exists($pathFolder)) {
@@ -42,20 +43,23 @@ class AlbumController extends Controller{
 
             $code = uniqid();
             $fileName = $code . '-' . $_FILES['image']['name'];
-            $photo = new Photo();
-            $photo->code = $code;
-            $photo->name = Common::getNamePhoto($_FILES['image']['name']);
-            $photo->album_id = $album->id;
-            $photo->url = date("Y") . '/' . date("m-d").'/' . $fileName;
 
-            if ($photo->save()) {
+            $photoUpload->attributes = $_POST['Photo'];
+            $photoUpload->code = $code;
+//            $photoUpload->name = Common::getNamePhoto($_FILES['image']['name']);
+            $photoUpload->album_id = $album->id;
+            $photoUpload->url = date("Y") . '/' . date("m-d").'/' . $fileName;
+
+            if ($photoUpload->save()) {
                 move_uploaded_file($_FILES['image']['tmp_name'], $pathFolder . '/' . $fileName);
                 Yii::app()->user->setFlash('success', Yii::t('app', 'Create new photo successfully'));
-                $photo = new Photo();
+                $photoUpload = new Photo();
                 $this->refresh();
             } else {
-                Common::debugdie($photo->getErrors());
+                Common::debugdie($photoUpload->getErrors());
             }
+        } else if(isset($_POST['Photo']) && empty($_FILES['image']['tmp_name'])){
+            Yii::app()->user->setFlash('error', Yii::t('app', 'You must select your image'));
         }
 
         // Ajax like button
@@ -81,7 +85,8 @@ class AlbumController extends Controller{
             'step' => $step,
             'userId' => $userId,
             'userPageId' => $userPageId,
-            'userPageInfo' => $userPageInfo
+            'userPageInfo' => $userPageInfo,
+            'photoUpload' => $photoUpload
         ));
     }
 

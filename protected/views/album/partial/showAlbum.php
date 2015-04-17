@@ -8,13 +8,10 @@
 <div class="clearfix"></div>
 <?php if($userId == $userPageId): ?>
     <div class="item">
-        <form method='post' enctype="multipart/form-data">
-            <a class="BoardCreateRep add-new-album fileinput-button">
-                <input id="inputFile" name="image" type="file">
-                <i class="fa fa-plus-circle"></i>
-                <span><?php echo Yii::t('app', 'Add Photos') ?></span>
-            </a>
-        </form>
+        <a class="BoardCreateRep add-new-album fileinput-button" data-toggle="modal" data-target="#myModal">
+            <i class="fa fa-plus-circle"></i>
+            <span><?php echo Yii::t('app', 'Add Photos') ?></span>
+        </a>
     </div>
 <?php endif; ?>
 
@@ -25,6 +22,51 @@
         <div class="caption"><?php echo $photo->name ?></p></div>
     </a>
 <?php endforeach; ?>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Create Album</h4>
+            </div>
+            <?php
+                $form = $this->beginWidget('CActiveForm', array(
+                    'clientOptions' => array(
+                        'validateOnSubmit' => true,
+                    ),
+                    'enableClientValidation'=>true,
+                    'htmlOptions' => array('enctype' => 'multipart/form-data')
+                ));
+            ?>
+            <div class="modal-body">
+                <div class="form-group">
+                    <input id="inputFile" name="image" type="file">
+                </div>
+                <div class="form-group">
+                    <?php
+                        echo CHtml::activeLabelEx($photoUpload, 'name', array('class' => 'control-label'));
+                        echo CHtml::activeTextField($photoUpload, 'name', array('class' => 'form-control', 'placeholder' => 'Title' ));
+                        echo $form->error($photoUpload, 'name');
+                    ?>
+                </div>
+                <div class="form-group">
+                    <?php
+                        echo CHtml::activeLabelEx($photoUpload, 'description', array('class' => 'control-label'));
+                        echo CHtml::activeTextArea($photoUpload, 'description', array('class' => 'form-control', 'placeholder' => 'Description' ));
+                        echo $form->error($photoUpload, 'description');
+                    ?>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal"><?php echo Yii::t('app', 'Close') ?></button>
+                <button type="submit" class="btn btn-primary"><?php echo Yii::t('app', 'Save') ?></button>
+            </div>
+            <?php $this->endWidget(); ?>
+        </div>
+    </div>
 </div>
 
 <script type="text/javascript">
@@ -78,7 +120,7 @@
                         if(height < 170){
                             sweetAlert("Oops...", "Something wrong with the image dimensions!", "error");
                         } else {
-                            $('#inputFile').parents('form').submit();
+//                            $('#inputFile').parents('form').submit();
                         }
                     };
                     img.src = _URL.createObjectURL(file);
@@ -86,5 +128,4 @@
             }
         });
     })
-
 </script>

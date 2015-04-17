@@ -40,10 +40,11 @@
     <div class='white-page'>
         <div class="bs-callout bs-callout-info" id="callout-dropdown-positioning">
             <h4 id="may-require-additional-positioning">Description<a class="anchorjs-link" href="#may-require-additional-positioning"><span class="anchorjs-icon"></span></a></h4>
-            <p><?php echo $photo->description ?></p>
+            <p><?php echo nl2br($photo->description) ?></p>
         </div>
     </div>
 <?php endif; ?>
-<!--<div class="white-page">-->
+<div>
+    <div class="page-header"><h4>Comment</h4></div>
     <?php require_once('fb-comments.php')?>
-<!--</div>-->
+</div>

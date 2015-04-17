@@ -25,6 +25,14 @@ class Photo extends CActiveRecord{
     {
         return array(
             array('name, url','required'),
+            array('description','safe')
+        );
+    }
+
+    public function relations()
+    {
+        return array(
+            'album' => array(self::BELONGS_TO, 'Album', 'album_id'),
         );
     }
 
